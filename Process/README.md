@@ -1,7 +1,7 @@
 Folder for process documentation.
 
-Commits legend:
-feat -> feature
+Commits legend: 
+feat -> feature 
 proc -> process
 
 # Process Journal
