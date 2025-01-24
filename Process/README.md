@@ -22,13 +22,13 @@ After some more snooping (and actually opening the window in fullscreen) I found
 Ooo I can make thins bold! This will come in handy.
 I made my first connection. I this point, I'm not entirely sure where I want my story to go.
 
-![../Images/'Screenshot 2025-01-23 152824.png']
+![img1](Images/Screenshot1.png)
 
 I make the simplest thing I know.
 Waking up.
 Within the first few minutes of consciousness every morning, I am already making decisions.
 
-![../Images/'Screenshot 2025-01-23 153153.png']
+![img2](Images/Screenshot2.png)
 
 Testing to see how it looks.
 I like it.
