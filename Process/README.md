@@ -28,7 +28,7 @@ I make the simplest thing I know.
 Waking up.
 Within the first few minutes of consciousness every morning, I am already making decisions.
 
-![../Images/'Screenshot 2025-01-23 153153.png']
+![img2](Images/Screenshot2.png)
 
 Testing to see how it looks.
 I like it.
