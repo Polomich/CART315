@@ -35,22 +35,38 @@ I like it.
 I do not know what all the variables at the bottom of the screen are. They will be a future problem, once I figure out this engine.
 Usually, I would've already started messing with the HTML and styling. But learning from my past mistakes (and being told often that I'm focusing on the wrong thig) I'm going to write before I do the visuals.
 
+![img3](Images/Screenshot3.png)
+
 The options are also working fine.
+
+![img4](Images/Screenshot4.png)
 
 So far the tree isn't too complicated.
 But I didn’t realize that I 2 options named the same way would point to the same place.
 That is troublesome. I have to find a way to differentiate them.
 
+![img5](Images/Screenshot5.png)
+
 I don't like that I have to rename my squares, but it does push me to come up with more creative ways to name them.
+
+![img6](Images/Screenshot6.png)
 
 I'm thinking of the options as I type them. Trying to keep everything organized.
 The squares are in arranged in columns where the actions are similar. For examples of the different ways to catch a bus are in the same column but all belong to different roads. When a story option doesn't progress much (or there is only 1 option) the following square is added right below the previous.
 
+![img7](Images/Screenshot7.png)
+
 Here I am testing out so routes. For some reason, this option leads to nowhere even though the plan clearly shows that there is a following.
+
+![img8](Images/Screenshot8.png)
 
 I forgot to refresh the browser. Moving on. Nothing to see here.
 
+![img9](Images/Screenshot9.png)
+
 After testing out all the routes, I realized that refreshing the page or clicking the arrows to get to the beginning is too much effort. I added a final state that will help loop back to the start.
+
+![img10](Images/Screenshot10.png)
 
 The final game is just a short story that shows how there really isn't a happy ending. All options have their drawbacks. It is based on my Thursday mornings. They are hell. I can either get a bit more sleep but be late and hungry to class. Or waking up on time but be in pain from sleep deprivation.
 
