@@ -79,3 +79,7 @@ Subject reported that they expected there to be a perfect ending --> BUT that do
 
 I told them that there isn't one. This game is based on my life. Life isn't perfect. I am in pain every Thursday.
 There isn't a perfect ending because I myself don't know how to get there. Let me know if you figure it out.
+
+### Where to find it
+- the raw HTML file on GitHub: https://github.com/Polomich/CART315/blob/main/Games/Morning.html
+- play the game directly on itch.io: https://polomich.itch.io/morning
