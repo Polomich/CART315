@@ -6,6 +6,17 @@ Commits legend:
 
 # Process Journal
 
+## Week 2: Exploration Protoype I (January 29, 2025)
+
+### How do you use Unity?
+
+I tried to install Unity last week with multiple fails. I did not have it installed on time for the lab demo and had to leave class early for a meeting.
+Meaning I am on my owm for this.
+
+I'm too scared to start a project from scratch but I saw that there are templates I can use under the education tab.
+I picked the platformer. Let's see what I can play around with.
+
+
 ## Week 1: Make a tiny game (January 23, 2025)
 
 ### How do you make a game with an engine you've never used?
