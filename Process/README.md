@@ -70,6 +70,8 @@ Still not working.
 ![image](https://github.com/user-attachments/assets/721c640b-45e1-425e-9395-79dfdf5e985b)
 <img width="268" alt="image" src="https://github.com/user-attachments/assets/4bf70d7a-1d77-4012-a783-7773f39438f2" />
 
+So none of that worked bc it needs to be inside of a Coroutine. What the hell is a Coroutine.
+
 
 
 ## Week 1: Make a tiny game (January 23, 2025)
