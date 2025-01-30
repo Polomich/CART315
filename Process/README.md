@@ -25,10 +25,17 @@ Oh no VS needs to install things. Oh that was fast.
 Nevermind it's gonna take forever.
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/7b1ca314-1512-43be-b716-b1cfe395925d" />
 
-What it is Awake, and why is not referenced anywhere?  
+What is Awake, and why is not referenced anywhere?  
 --> Initializer for an object.
 
+1. First trial: changing the player color. That should be easy.
+- can't find where the player color is stored.
+- gonna try something else.
 
+2. Make the player bounce on Initialization.
+- Found where the player Awakes
+- The jumping methods look complicated
+- I made the player Bounce! 
 
 ## Week 1: Make a tiny game (January 23, 2025)
 
