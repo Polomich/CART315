@@ -6,7 +6,7 @@ Commits legend:
 
 # Process Journal
 ## Index
-1. [Week 1](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-2-exploration-protoype-i-january-29-2025)
+1. [Week 1](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-1-make-a-tiny-game-january-23-2025)
 2. [Week 2](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-2-exploration-protoype-i-january-29-2025) 
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
