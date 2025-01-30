@@ -22,8 +22,8 @@ Oh that's just the inspector.
 
 Oh no VS needs to install things. Oh that was fast.
 
-Nevermind it's gonna take forever.
-<img width="553" alt="image" src="https://github.com/user-attachments/assets/7b1ca314-1512-43be-b716-b1cfe395925d" />
+Nevermind it's gonna take forever.  
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/7b1ca314-1512-43be-b716-b1cfe395925d" />  
 
 What is Awake, and why is not referenced anywhere?  
 --> Initializer for an object.
