@@ -72,6 +72,14 @@ Still not working.
 
 So none of that worked bc it needs to be inside of a Coroutine. What the hell is a Coroutine.
 
+<img width="510" alt="image" src="https://github.com/user-attachments/assets/f410c316-d8ae-428f-9f1d-9726829d7e61" />
+
+YESSSSS GORGEOUS DAY  
+ITS ALIVE!!!!!!!!!
+
+4. Time to try something else. Bounce with WaitUntil() to perfect it.
+
+
 
 
 ## Week 1: Make a tiny game (January 23, 2025)
