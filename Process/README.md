@@ -49,6 +49,27 @@ As seen by my documentation, it did not work very well.
 
 Insights: Awake() cannot contain a loop. ThreadSleep() does not work in Unity. 
 
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/ccbc260f-0d3c-449e-b45c-cfaababb5492" />
+
+Insights correction: the loop is not the problem. WaitForSecond returns something but the return type of Awake() is void so it's not compatible.  
+
+<img width="541" alt="image" src="https://github.com/user-attachments/assets/2b6bcb6d-87f5-4dda-9aa9-36bf11585b8a" />  
+
+This also didn't work.  
+Maybe changing it to real seconds?  
+<img width="528" alt="image" src="https://github.com/user-attachments/assets/65423f58-70b2-4f5f-a54e-87a80e661da4" />
+
+This also did not work.
+
+After inserting a bunch of print statements, I figured JumpingJacks was not being reached. Maybe I'm not calling it right?
+
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/ad917c9d-e0ea-4620-b1d9-6bcfe737a52e" />
+
+Still not working.
+
+
+
+
 ## Week 1: Make a tiny game (January 23, 2025)
 
 ### How do you make a game with an engine you've never used?
