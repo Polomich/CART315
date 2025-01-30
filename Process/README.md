@@ -32,11 +32,22 @@ What is Awake, and why is not referenced anywhere?
 - can't find where the player color is stored.
 - gonna try something else.
 
+Insight: The player color is not set by code by image. 
+Insight Correction: the player is a white colored sprite. Yet to find where the turquoise color comes from. 
+
 2. Make the player bounce on Initialization.
 - Found where the player Awakes
 - The jumping methods look complicated
 - I made the player Bounce!
-- 
+
+Insight:Awake() is an initialization method in Unity. There is velocity math involved in jumping and moving around.  
+
+3. Make the player bounce a certain amount of times using a for loop.  
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/b9635f97-4fc4-48a8-a708-acd77b852b36" />
+
+As seen by my documentation, it did not work very well.
+
+Insights: Awake() cannot contain a loop. ThreadSleep() does not work in Unity. 
 
 ## Week 1: Make a tiny game (January 23, 2025)
 
