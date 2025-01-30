@@ -22,6 +22,10 @@ Oh that's just the inspector.
 
 Oh no VS needs to install things. Oh that was fast.
 
+Nevermind it's gonna take forever.
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/7b1ca314-1512-43be-b716-b1cfe395925d" />
+
+
 ## Week 1: Make a tiny game (January 23, 2025)
 
 ### How do you make a game with an engine you've never used?
