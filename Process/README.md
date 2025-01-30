@@ -10,20 +10,24 @@ Commits legend:
 
 ### How do you use Unity?
 
-I tried to install Unity last week with multiple fails. I did not have it installed on time for the lab demo and had to leave class early for a meeting.
+I tried to install Unity last week with multiple fails. I did not have it installed on time for the lab demo and had to leave class early for a meeting.  
 Meaning I am on my owm for this.
 
-I'm too scared to start a project from scratch but I saw that there are templates I can use under the education tab.
+I'm too scared to start a project from scratch but I saw that there are templates I can use under the education tab.  
 I picked the platformer. Let's see what I can play around with.
 
-Picking a script to go mess with. 
-Why can't I edit in Unity.
+Picking a script to go mess with.  
+Why can't I edit in Unity.  
 Oh that's just the inspector.
 
 Oh no VS needs to install things. Oh that was fast.
 
 Nevermind it's gonna take forever.
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/7b1ca314-1512-43be-b716-b1cfe395925d" />
+
+What it is Awake, and why is not referenced anywhere?  
+--> Initializer for an object.
+
 
 
 ## Week 1: Make a tiny game (January 23, 2025)
