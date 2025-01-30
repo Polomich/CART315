@@ -67,6 +67,8 @@ After inserting a bunch of print statements, I figured JumpingJacks was not bein
 
 Still not working.
 
+![image](https://github.com/user-attachments/assets/721c640b-45e1-425e-9395-79dfdf5e985b)
+<img width="268" alt="image" src="https://github.com/user-attachments/assets/4bf70d7a-1d77-4012-a783-7773f39438f2" />
 
 
 
