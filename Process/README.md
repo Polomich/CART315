@@ -32,7 +32,7 @@ What is Awake, and why is not referenced anywhere?
 - can't find where the player color is stored.
 - gonna try something else.
 
-Insight: The player color is not set by code by image. 
+Insight: The player color is not set by code by image.  
 Insight Correction: the player is a white colored sprite. Yet to find where the turquoise color comes from. 
 
 2. Make the player bounce on Initialization.
@@ -40,7 +40,7 @@ Insight Correction: the player is a white colored sprite. Yet to find where the 
 - The jumping methods look complicated
 - I made the player Bounce!
 
-Insight:Awake() is an initialization method in Unity. There is velocity math involved in jumping and moving around.  
+Insight: Awake() is an initialization method in Unity. There is velocity math involved in jumping and moving around.  
 
 3. Make the player bounce a certain amount of times using a for loop.  
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/b9635f97-4fc4-48a8-a708-acd77b852b36" />
@@ -88,6 +88,14 @@ Need to try adding more jumps and more velocity.
 
 Player jumps high, but only 3 times. Does my iterator continue on its own while player is jumping? Is the velocity not strong enough to bounce again?
 
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/0da07acb-205b-4b01-8e14-6a227b61ea28" />   
+<img width="221" alt="image" src="https://github.com/user-attachments/assets/93ded57f-b879-4bb2-9e13-c00dced46b63" />
+
+Every jump, the iterator goes up a few times.
+
+![image](https://github.com/user-attachments/assets/0a6dfd7c-ad80-4d1e-9555-522ed40fe4e1)
+
+This while loop did not change the outcome.
 
 
 ## Week 1: Make a tiny game (January 23, 2025)
