@@ -84,6 +84,11 @@ ITS ALIVE!!!!!!!!!
 This worked but the player only jumped twice. It did jump as soon as it hit the ground.  
 Need to try adding more jumps and more velocity.
 
+![image](https://github.com/user-attachments/assets/02572595-c463-427f-b0e4-0510d36192e3)
+
+Player jumps high, but only 3 times. Does my iterator continue on its own while player is jumping? Is the velocity not strong enough to bounce again?
+
+
 
 ## Week 1: Make a tiny game (January 23, 2025)
 
