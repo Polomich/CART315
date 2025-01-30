@@ -35,7 +35,8 @@ What is Awake, and why is not referenced anywhere?
 2. Make the player bounce on Initialization.
 - Found where the player Awakes
 - The jumping methods look complicated
-- I made the player Bounce! 
+- I made the player Bounce!
+- 
 
 ## Week 1: Make a tiny game (January 23, 2025)
 
