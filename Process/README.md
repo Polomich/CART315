@@ -79,7 +79,10 @@ ITS ALIVE!!!!!!!!!
 
 4. Time to try something else. Bounce with WaitUntil() to perfect it.
 
+<img width="497" alt="image" src="https://github.com/user-attachments/assets/f67272d5-b3a4-440e-8089-4b6dc5fd1be0" />
 
+This worked but the player only jumped twice. It did jump as soon as it hit the ground.  
+Need to try adding more jumps and more velocity.
 
 
 ## Week 1: Make a tiny game (January 23, 2025)
