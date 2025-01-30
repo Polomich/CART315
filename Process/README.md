@@ -20,6 +20,8 @@ Picking a script to go mess with.
 Why can't I edit in Unity.
 Oh that's just the inspector.
 
+Oh no VS needs to install things. Oh that was fast.
+
 ## Week 1: Make a tiny game (January 23, 2025)
 
 ### How do you make a game with an engine you've never used?
