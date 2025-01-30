@@ -5,6 +5,9 @@ Commits legend:
 - proc -> process
 
 # Process Journal
+## Index
+1. Week 1 :
+2. Week 2 :
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
