@@ -97,6 +97,11 @@ Every jump, the iterator goes up a few times.
 
 This while loop did not change the outcome.
 
+### So, what now?
+- Do more research on how Unity works.
+- Ask!
+- Try to create something from scratch. 
+
 
 ## Week 1: Make a tiny game (January 23, 2025)
 
