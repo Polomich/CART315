@@ -5,6 +5,14 @@ Commits legend:
 - proc -> process
 
 # Process Journal
+## Index
+1. [Week 1](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-1-make-a-tiny-game-january-23-2025)
+2. [Week 2](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-2-exploration-protoype-i-january-29-2025)
+3. [Week 3]
+4. [Week 4]
+5. [Week 5]
+6. [Week 6]
+7. [Week 7]
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
@@ -32,11 +40,76 @@ What is Awake, and why is not referenced anywhere?
 - can't find where the player color is stored.
 - gonna try something else.
 
+Insight: The player color is not set by code by image.  
+Insight Correction: the player is a white colored sprite. Yet to find where the turquoise color comes from. 
+
 2. Make the player bounce on Initialization.
 - Found where the player Awakes
 - The jumping methods look complicated
 - I made the player Bounce!
-- 
+
+Insight: Awake() is an initialization method in Unity. There is velocity math involved in jumping and moving around.  
+
+3. Make the player bounce a certain amount of times using a for loop.  
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/b9635f97-4fc4-48a8-a708-acd77b852b36" />
+
+As seen by my documentation, it did not work very well.
+
+Insights: Awake() cannot contain a loop. ThreadSleep() does not work in Unity. 
+
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/ccbc260f-0d3c-449e-b45c-cfaababb5492" />
+
+Insights correction: the loop is not the problem. WaitForSecond returns something but the return type of Awake() is void so it's not compatible.  
+
+<img width="541" alt="image" src="https://github.com/user-attachments/assets/2b6bcb6d-87f5-4dda-9aa9-36bf11585b8a" />  
+
+This also didn't work.  
+Maybe changing it to real seconds?  
+<img width="528" alt="image" src="https://github.com/user-attachments/assets/65423f58-70b2-4f5f-a54e-87a80e661da4" />
+
+This also did not work.
+
+After inserting a bunch of print statements, I figured JumpingJacks was not being reached. Maybe I'm not calling it right?
+
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/ad917c9d-e0ea-4620-b1d9-6bcfe737a52e" />
+
+Still not working.
+
+![image](https://github.com/user-attachments/assets/721c640b-45e1-425e-9395-79dfdf5e985b)
+<img width="268" alt="image" src="https://github.com/user-attachments/assets/4bf70d7a-1d77-4012-a783-7773f39438f2" />
+
+So none of that worked bc it needs to be inside of a Coroutine. What the hell is a Coroutine.
+
+<img width="510" alt="image" src="https://github.com/user-attachments/assets/f410c316-d8ae-428f-9f1d-9726829d7e61" />
+
+YESSSSS GORGEOUS DAY  
+ITS ALIVE!!!!!!!!!
+
+4. Time to try something else. Bounce with WaitUntil() to perfect it.
+
+<img width="497" alt="image" src="https://github.com/user-attachments/assets/f67272d5-b3a4-440e-8089-4b6dc5fd1be0" />
+
+This worked but the player only jumped twice. It did jump as soon as it hit the ground.  
+Need to try adding more jumps and more velocity.
+
+![image](https://github.com/user-attachments/assets/02572595-c463-427f-b0e4-0510d36192e3)
+
+Player jumps high, but only 3 times. Does my iterator continue on its own while player is jumping? Is the velocity not strong enough to bounce again?
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/0da07acb-205b-4b01-8e14-6a227b61ea28" />   
+<img width="221" alt="image" src="https://github.com/user-attachments/assets/93ded57f-b879-4bb2-9e13-c00dced46b63" />
+
+Every jump, the iterator goes up a few times.
+
+![image](https://github.com/user-attachments/assets/0a6dfd7c-ad80-4d1e-9555-522ed40fe4e1)
+
+This while loop did not change the outcome.
+
+### So, what now?
+- Do more research on how Unity works.
+- Ask!
+- Try to create something from scratch. 
+
 
 ## Week 1: Make a tiny game (January 23, 2025)
 
