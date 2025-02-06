@@ -36,6 +36,9 @@ Folder for process documentation.
    - wait not it *does* change color, but not in the gameplay
 ![image](https://github.com/user-attachments/assets/8e5f3386-4b74-4f2c-a0f2-bb0b6a752719)
 
+## Conclusion
+- Nothing worked this week. I am tired. 
+
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
