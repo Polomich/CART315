@@ -16,7 +16,8 @@ Folder for process documentation.
 ### How to fix a broken game?
 
 My walls are not walling. why.
-Why is my ball always startting in the same direction.
+Why is my ball always startting in the same direction. --> it's not.
+
 
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
