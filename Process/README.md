@@ -15,19 +15,24 @@ Folder for process documentation.
 
 ### How to fix a broken game?
 
-1. My walls are not walling. why.  
+1. My walls are not walling. why.
+   - Trying to add Rigid Body 2D, conflicting with Box Collider
+   - Deleted Box Collider and replaced with Box Collider 2D
+   - Added RigidBody 2D
 
-- Trying to add Rigid Body 2D, conflicting with Box Collider
-- Deleted Box Collider and replaced with Box Collider 2D
-- Added RigidBody 2D
-
-- OMG it did bonk! oops i left my wall too far down. game broke.  
--> blip hasn't been assigned (i forgot it?)
+  - OMG it did bonk! oops i left my wall too far down. game broke.  
+    -> blip hasn't been assigned (i forgot it?)
 
 2. Sound
-- going to ignore it for bc wow what an annoying sound.
+   - going to ignore it for bc wow what an annoying sound.
 
-3. Ball bouncing physics is not working
+4. Ball bouncing physics is not working
+   - yea no, i don't know how to fix that
+  
+## How to add features?
+
+1. Random color changing on bonking a wall
+   - Managed to get the color to change on bonk But why is it always white?
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
