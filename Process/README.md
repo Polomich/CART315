@@ -15,7 +15,7 @@ Folder for process documentation.
 
 ### How to fix a broken game?
 
-May walls are not walling. why.
+My walls are not walling. why.
 
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
