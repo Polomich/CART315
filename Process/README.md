@@ -21,7 +21,7 @@ Folder for process documentation.
 - Deleted Box Collider and replaced with Box Collider 2D
 - Added RigidBody 2D
 
-- OMG it did bonk! oops i left my wall too far down. game broke.
+- OMG it did bonk! oops i left my wall too far down. game broke.  
 -> blip hasn't been assigned (i forgot it?)
 
 2. Sound
