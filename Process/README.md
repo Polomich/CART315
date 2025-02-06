@@ -11,6 +11,10 @@ Folder for process documentation.
 6. [Week 6]
 7. [Week 7]
 
+## Week 3: Exploration Prototype II (February 6, 2025)
+
+### 
+
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
 ### How do you use Unity?
