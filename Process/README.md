@@ -27,6 +27,8 @@ Folder for process documentation.
 2. Sound
 - going to ignore it for bc wow what an annoying sound.
 
+3. Ball bouncing physics is not working
+
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
 ### How do you use Unity?
