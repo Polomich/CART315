@@ -24,6 +24,9 @@ Folder for process documentation.
 - OMG it did bonk! oops i left my wall too far down. game broke.
 -> blip hasn't been assigned (i forgot it?)
 
+2. Sound
+- going to ignore it for bc wow what an annoying sound.
+
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
 ### How do you use Unity?
