@@ -11,7 +11,14 @@ public class BallScript : MonoBehaviour
     public float maxSpeed = 10f;
     public float minSpeed = 2f;
 
-    public AudioSource scoreSound, blip;
+    //Color vars
+    SpriteRenderer m_SpriteRenderer;
+    Color m_White = new Color(255, 255, 255, 255);
+    Color m_Purple = new Color(204, 153, 255, 255); 
+    Color m_Pink = new Color(225, 182, 208, 255);
+    Color[] colors;
+
+    //public AudioSource scoreSound, blip;
 
     public int leftPlayerScore, rightPlayerScore;
 
@@ -24,6 +31,11 @@ public class BallScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        //get spiriterenderer
+        Color[] colors = new Color[] { m_White, m_Purple, m_Pink };
+        m_SpriteRenderer = GetComponent<SpriteRenderer>();
+
         Reset();
     }
 
@@ -56,14 +68,18 @@ public class BallScript : MonoBehaviour
     // if the ball goes out of bounds
     private void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log("bonk?");
+
+        //change color to something random
+        m_SpriteRenderer.color = m_Purple;//colors[Random.Range(0, colors.Length)];
 
 
         // did we hit a wall?
         if (other.gameObject.tag == "Wall")
         {
             // make pitch lower
-            blip.pitch = 0.75f;
-            blip.Play();
+            //blip.pitch = 0.75f;
+            //blip.Play();
             SpeedCheck();
         }
 
@@ -71,8 +87,8 @@ public class BallScript : MonoBehaviour
         if (other.gameObject.tag == "Paddle")
         {
             // make pitch higher
-            blip.pitch = 1f;
-            blip.Play();
+            //blip.pitch = 1f;
+            //blip.Play();
             SpeedCheck();
         }
 
@@ -93,6 +109,7 @@ public class BallScript : MonoBehaviour
 
     private void SpeedCheck()
     {
+        Debug.Log("bonk!");
 
         // Prevent ball from going too fast
         if (Mathf.Abs(rb.linearVelocity.x) > maxSpeed) rb.linearVelocity = new Vector2(rb.linearVelocity.x * 0.99f, rb.linearVelocity.y);

@@ -120,6 +120,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &506708082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1059972827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +229,7 @@ GameObject:
   - component: {fileID: 748529310}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,8 +247,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1487266425}
   - {fileID: 1059972828}
+  - {fileID: 1487266425}
   - {fileID: 1227749094}
   - {fileID: 1779434621}
   m_Father: {fileID: 0}
@@ -263,7 +269,7 @@ PrefabInstance:
     - target: {fileID: 1082512362427784249, guid: a9a887f76d1179c46832d9b42bbacb7e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.15
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 1082512362427784249, guid: a9a887f76d1179c46832d9b42bbacb7e,
         type: 3}
@@ -305,15 +311,44 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2923866553441385052, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923866553441385052, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923866553441385052, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
         type: 3}
       propertyPath: m_Name
       value: topWall
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2923866553441385052, guid: a9a887f76d1179c46832d9b42bbacb7e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1059972830}
+    - targetCorrespondingSourceObject: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1059972829}
   m_SourcePrefab: {fileID: 100100000, guid: a9a887f76d1179c46832d9b42bbacb7e, type: 3}
 --- !u!4 &1059972828 stripped
 Transform:
@@ -321,6 +356,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1059972827}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1059972829
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506708082}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &1059972830
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506708082}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1001 &1227749093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,6 +502,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rightWall
       objectReference: {fileID: 0}
+    - target: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -404,6 +517,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1082512362427784249, guid: a9a887f76d1179c46832d9b42bbacb7e,
     type: 3}
   m_PrefabInstance: {fileID: 1227749093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1328903873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1487266424}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1487266424
 PrefabInstance:
@@ -421,7 +540,7 @@ PrefabInstance:
     - target: {fileID: 1082512362427784249, guid: a9a887f76d1179c46832d9b42bbacb7e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.75
+      value: -5.78
       objectReference: {fileID: 0}
     - target: {fileID: 1082512362427784249, guid: a9a887f76d1179c46832d9b42bbacb7e,
         type: 3}
@@ -468,10 +587,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottomWall
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2923866553441385052, guid: a9a887f76d1179c46832d9b42bbacb7e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1487266427}
+    - targetCorrespondingSourceObject: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1487266426}
   m_SourcePrefab: {fileID: 100100000, guid: a9a887f76d1179c46832d9b42bbacb7e, type: 3}
 --- !u!4 &1487266425 stripped
 Transform:
@@ -479,6 +612,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1487266424}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &1487266426
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328903873}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &1487266427
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328903873}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1541880279
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +853,6 @@ MonoBehaviour:
   ballSpeed: 20
   maxSpeed: 60
   minSpeed: 10
-  scoreSound: {fileID: 0}
-  blip: {fileID: 0}
   leftPlayerScore: 0
   rightPlayerScore: 0
 --- !u!1001 &1764557745
@@ -723,6 +927,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: leftPaddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8538361129468675993, guid: 6849af7e848c34ce2aca6d9bdc9c327d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Paddle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -801,6 +1010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: leftWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420423767222587804, guid: a9a887f76d1179c46832d9b42bbacb7e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -885,6 +1099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rightPaddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8538361129468675993, guid: 6849af7e848c34ce2aca6d9bdc9c327d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Paddle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
