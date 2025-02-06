@@ -15,10 +15,13 @@ Folder for process documentation.
 
 ### How to fix a broken game?
 
-My walls are not walling. why.  
-Why is my ball always startting in the same direction. --> it's not.  
+1. My walls are not walling. why.  
 
+- Trying to add Rigid Body 2D, conflicting with Box Collider
+- Deleted Box Collider and replaced with Box Collider 2D
+- Added RigidBody 2D
 
+- OMG it did bonk! oops i left my wall too far down. game broke.
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
