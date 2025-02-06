@@ -22,6 +22,7 @@ Folder for process documentation.
 - Added RigidBody 2D
 
 - OMG it did bonk! oops i left my wall too far down. game broke.
+-> blip hasn't been assigned (i forgot it?)
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
