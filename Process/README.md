@@ -33,6 +33,9 @@ Folder for process documentation.
 
 1. Random color changing on bonking a wall
    - Managed to get the color to change on bonk But why is it always white?
+   - wait not it *does* change color, but not in the gameplay
+![image](https://github.com/user-attachments/assets/8e5f3386-4b74-4f2c-a0f2-bb0b6a752719)
+
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
