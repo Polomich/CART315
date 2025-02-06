@@ -13,7 +13,10 @@ Folder for process documentation.
 
 ## Week 3: Exploration Prototype II (February 6, 2025)
 
-### 
+### How to fix a broken game?
+
+May walls are not walling. why.
+
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
 
