@@ -29,7 +29,7 @@ Folder for process documentation.
 4. Ball bouncing physics is not working
    - yea no, i don't know how to fix that
   
-## How to add features?
+### How to add features?
 
 1. Random color changing on bonking a wall
    - Managed to get the color to change on bonk But why is it always white?
