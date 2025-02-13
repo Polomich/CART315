@@ -15,9 +15,21 @@ Folder for process documentation.
 
 ### Prototyping on Paper
 
-Yet again I am burdened with a game that doesn't work (the ball doesn't move, I don't know how to make the paddle move.)
+Yet again I am burdened with a game that doesn't work (the ball doesn't move, I don't know how to make the paddle move either.)
 
 So we are working with paper and our imagination this week. 
+
+<img width="509" alt="image" src="https://github.com/user-attachments/assets/7c94579d-1ba7-4990-be84-85ba3d6bc077" />
+
+![image](https://github.com/user-attachments/assets/b130eb40-e186-4ef9-a521-aacd072bfacf)
+
+![image](https://github.com/user-attachments/assets/389b4ffc-80a0-439a-ac91-f099e7af47b9)
+
+![image](https://github.com/user-attachments/assets/1e952112-2d02-4c58-959d-336e16e0b52c)
+
+![image](https://github.com/user-attachments/assets/0583ec4d-19ae-43ac-9c13-02ec7b8287bb)
+
+
 
 ## Week 3: Exploration Prototype II (February 6, 2025)
 
