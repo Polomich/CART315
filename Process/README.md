@@ -11,6 +11,14 @@ Folder for process documentation.
 6. [Week 6]
 7. [Week 7]
 
+## Week 4: Exploration Prototype III (February 13, 2025)
+
+### Prototyping on Paper
+
+Yet again I am burdened with a game that doesn't work (the ball doesn't move, I don't know how to make the paddle move.)
+
+So we are working with paper and our imagination this week. 
+
 ## Week 3: Exploration Prototype II (February 6, 2025)
 
 ### How to fix a broken game?
