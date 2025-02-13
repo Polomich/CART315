@@ -19,7 +19,7 @@ Yet again I am burdened with a game that doesn't work (the ball doesn't move, I 
 
 So we are working with paper and our imagination this week. 
 
-<img width="509" alt="image" src="https://github.com/user-attachments/assets/7c94579d-1ba7-4990-be84-85ba3d6bc077" />
+<img width="809" alt="image" src="https://github.com/user-attachments/assets/7c94579d-1ba7-4990-be84-85ba3d6bc077" />
 
 ![image](https://github.com/user-attachments/assets/b130eb40-e186-4ef9-a521-aacd072bfacf)
 
