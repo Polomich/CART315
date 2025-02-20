@@ -11,6 +11,31 @@ Folder for process documentation.
 6. [Week 6]
 7. [Week 7]
 
+## Week 5: Exploration Prototype IIII (February 20, 2025)
+
+### Prototyping on Paper part 2
+
+![image](https://github.com/user-attachments/assets/da805cd6-00ff-4f6f-afd7-10b9af100884)
+
+![image](https://github.com/user-attachments/assets/c60a2d5b-65dd-4433-8fb6-ad313eec5845)
+
+![image](https://github.com/user-attachments/assets/6ea985eb-d2d0-4642-b0f5-2d0d04bf3596)
+
+![image](https://github.com/user-attachments/assets/05e14619-f965-485b-b2c6-34470c62dc50)
+
+List of endangered species: https://www.worldwildlife.org/species/directory?direction=desc&sort=extinction_status
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/61358dc6-ae86-4366-8966-f55b4f521871" />
+
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/535c5b1d-0df6-478f-ade6-d1e2fcc2d855" />
+
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/7e2198b4-57dd-4327-813b-404f2156dfe4" />
+
+<img width="526" alt="image" src="https://github.com/user-attachments/assets/15a7d670-0305-4a4a-ae2d-06431c6667a1" />
+
+<img width="990" alt="image" src="https://github.com/user-attachments/assets/7e458135-e78c-4da6-9aff-236f99f8d905" />
+
+
+
 ## Week 4: Exploration Prototype III (February 13, 2025)
 
 ### Prototyping on Paper
