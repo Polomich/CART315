@@ -7,7 +7,7 @@ Folder for process documentation.
 2. [Week 2](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-2-exploration-protoype-i-january-29-2025)
 3. [Week 3](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-3-exploration-prototype-ii-february-6-2025)
 4. [Week 4](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-4-exploration-prototype-iii-february-13-2025)
-5. [Week 5]
+5. [Week 5](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-5-exploration-prototype-iiii-february-20-2025)
 6. [Week 6]
 7. [Week 7]
 
