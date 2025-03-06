@@ -8,8 +8,41 @@ Folder for process documentation.
 3. [Week 3](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-3-exploration-prototype-ii-february-6-2025)
 4. [Week 4](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-4-exploration-prototype-iii-february-13-2025)
 5. [Week 5](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-5-exploration-prototype-iiii-february-20-2025)
-6. [Week 6]
+6. [Week 6] (
 7. [Week 7]
+8. [Week 8]
+9. [Week 9]
+10. [Week 10]
+
+## Week 10: Iterative Prototype V
+
+
+## Week 9: Iterative Prototype IV
+
+
+## Week 8: Iterative Prototype III
+
+
+## Week 7: Iterative Prototype II
+
+
+## Week 6: Iterative Prototype I (March 6, 2025)
+<img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
+
+<img width="494" alt="image" src="https://github.com/user-attachments/assets/28eec967-8807-4c02-bf06-a1f7e6020b16" />
+
+<img width="878" alt="image" src="https://github.com/user-attachments/assets/73e3ffe5-5c5a-44ee-8af0-0b7c6da630b9" />
+
+<img width="487" alt="image" src="https://github.com/user-attachments/assets/299b93f0-7518-4c8f-a769-0d5c92ee33c4" />
+
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/88aeff90-6478-4deb-9ba9-b95c71c2b6c2" />
+
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/3025c400-2989-441d-a860-eb80a24ae9f3" />
+
+<img width="365" alt="image" src="https://github.com/user-attachments/assets/1de51341-000e-4f5e-87fa-809a1c568df9" />
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/59d2e065-8791-4783-ae55-6c6c24bd6742" />
+
 
 ## Week 5: Exploration Prototype IIII (February 20, 2025)
 
