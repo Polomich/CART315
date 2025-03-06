@@ -8,11 +8,11 @@ Folder for process documentation.
 3. [Week 3](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-3-exploration-prototype-ii-february-6-2025)
 4. [Week 4](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-4-exploration-prototype-iii-february-13-2025)
 5. [Week 5](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-5-exploration-prototype-iiii-february-20-2025)
-6. [Week 6] (
-7. [Week 7]
-8. [Week 8]
-9. [Week 9]
-10. [Week 10]
+6. [Week 6](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-6-iterative-prototype-i-march-6-2025)
+7. [Week 7](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-7-iterative-prototype-ii)
+8. [Week 8](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-8-iterative-prototype-iii)
+9. [Week 9](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-9-iterative-prototype-iv)
+10. [Week 10](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-10-iterative-prototype-v)
 
 ## Week 10: Iterative Prototype V
 
