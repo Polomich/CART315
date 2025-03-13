@@ -60,6 +60,10 @@ Switched some colors, I like this look a lot better:
 Tried to look at some sidebar inspo. Why are all of these so boring.  
 <img width="733" alt="image" src="https://github.com/user-attachments/assets/28366dbb-bbcc-430e-ab3e-3c851771a186" />
 
+Not entirely appplicable for my context but a good example to follow:  
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/93b45262-a1ba-4293-905c-5a5029a2e15b" />
+https://www.behance.net/gallery/175538095/Sidebar-menu?tracking_source=search_projects|sidebar+ux&l=7
+
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
