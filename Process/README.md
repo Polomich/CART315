@@ -64,6 +64,9 @@ Not entirely appplicable for my context but a good example to follow:
 <img width="538" alt="image" src="https://github.com/user-attachments/assets/93b45262-a1ba-4293-905c-5a5029a2e15b" />  
 https://www.behance.net/gallery/175538095/Sidebar-menu?tracking_source=search_projects|sidebar+ux&l=7
 
+Now why is H1 smaller than H2  
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/27f025a9-605e-456f-aefe-9f5cc7fa7c57" />
+
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
