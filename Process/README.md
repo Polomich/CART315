@@ -57,6 +57,8 @@ Looking for some more greenery:
 Switched some colors, I like this look a lot better:  
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/6e336282-e457-4eaa-9ff5-b2e2a1df5cad" />
 
+Tried to look at some sidebar inspo. Why are all of these so boring.  
+<img width="733" alt="image" src="https://github.com/user-attachments/assets/28366dbb-bbcc-430e-ab3e-3c851771a186" />
 
 
 
