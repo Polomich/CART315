@@ -92,6 +92,7 @@ We got a sidebar going
 | --- | --- | --- |
 | Good contrast, good harmony |  | I went back to the bg i liked and made the text darker instead |
 
+Now the tiles border are way too dark and also clash with the color scheme.
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
 <img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
