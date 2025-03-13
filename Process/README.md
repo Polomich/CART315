@@ -70,6 +70,8 @@ Nothing here makes sense
 <img width="273" alt="image" src="https://github.com/user-attachments/assets/0a6c720a-e58a-43e7-96e4-b58ce963c931" />
 <img width="376" alt="image" src="https://github.com/user-attachments/assets/3c59a1d7-4cfe-4209-b01f-a8685c56cb97" />
 
+We got a sidebar going  
+<img width="232" alt="image" src="https://github.com/user-attachments/assets/395fd4e3-33cc-41db-84cf-c7757e3146ab" />
 
 
 
