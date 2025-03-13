@@ -67,6 +67,10 @@ https://www.behance.net/gallery/175538095/Sidebar-menu?tracking_source=search_pr
 Now why is H1 smaller than H2  
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/27f025a9-605e-456f-aefe-9f5cc7fa7c57" />
 
+<img width="273" alt="image" src="https://github.com/user-attachments/assets/0a6c720a-e58a-43e7-96e4-b58ce963c931" />
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/3c59a1d7-4cfe-4209-b01f-a8685c56cb97" />
+
+
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
