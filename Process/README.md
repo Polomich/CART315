@@ -41,8 +41,8 @@ Heading over to https://coolors.co/palettes/trending to find a palette.
 
 Some nice palettes:  
 ![image](https://github.com/user-attachments/assets/57fb743b-5288-4943-a46a-1711f7104c8f)  
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/7e2e0c64-6f74-4338-9e3e-0e7eada9e4dd" />
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/4bc23cff-cfad-4121-b90f-da0d0ff3da57" />  
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/7e2e0c64-6f74-4338-9e3e-0e7eada9e4dd" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4bc23cff-cfad-4121-b90f-da0d0ff3da57" />  
 I like pastels, and I do like these colors, but they might be too muted for the pixel pictures.
 
 This one speaks to me:  
