@@ -26,7 +26,9 @@ Folder for process documentation.
 ## Week 7: Iterative Prototype II
 
 ### This week will focus on digital prototyping
-After 
+After a lot trial and error (and cursing out flexbox for the nth time) I managed to create this during last week's lab:
+<img width="1109" alt="image" src="https://github.com/user-attachments/assets/99e7a67b-088c-405b-9606-2b8e8249ba48" />
+The colors just being place-holders. It took all the patience I hade to center the grid in the middle. 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
 <img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
