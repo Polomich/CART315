@@ -51,7 +51,7 @@ This one speaks to me:
 but does it fit the theme?
 (the theme being animal and nature if I haven't mentioned it yet. Might have kept that thought locked in.)
 
-Looking for some more greenery. 
+Looking for some more greenery:  
 ![image](https://github.com/user-attachments/assets/224d5691-9e18-48ed-8c17-9fe52458fcb0)
 
 
