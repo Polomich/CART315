@@ -54,6 +54,10 @@ but does it fit the theme?
 Looking for some more greenery:  
 ![image](https://github.com/user-attachments/assets/224d5691-9e18-48ed-8c17-9fe52458fcb0)
 
+Switched some colors, I like this look a lot better:  
+<img width="758" alt="image" src="https://github.com/user-attachments/assets/6e336282-e457-4eaa-9ff5-b2e2a1df5cad" />
+
+
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
