@@ -73,6 +73,12 @@ Nothing here makes sense
 We got a sidebar going  
 <img width="232" alt="image" src="https://github.com/user-attachments/assets/395fd4e3-33cc-41db-84cf-c7757e3146ab" />
 
+### Some comparisons 
+<img width="226" alt="image" src="https://github.com/user-attachments/assets/c90c283c-b7b4-4036-a830-8795f6ff976f" />  
+| Like                  | Dislike              | Comment          |
+| --------------------- | -------------------- | ---------------- |
+| Colors are harmonious | Note enough contrast | Make bg lighter? |
+
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
