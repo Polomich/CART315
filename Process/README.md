@@ -6,10 +6,135 @@ Folder for process documentation.
 1. [Week 1](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-1-make-a-tiny-game-january-23-2025)
 2. [Week 2](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-2-exploration-protoype-i-january-29-2025)
 3. [Week 3](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-3-exploration-prototype-ii-february-6-2025)
-4. [Week 4]
-5. [Week 5]
-6. [Week 6]
-7. [Week 7]
+4. [Week 4](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-4-exploration-prototype-iii-february-13-2025)
+5. [Week 5](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-5-exploration-prototype-iiii-february-20-2025)
+6. [Week 6](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-6-iterative-prototype-i-march-6-2025)
+7. [Week 7](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-7-iterative-prototype-ii)
+8. [Week 8](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-8-iterative-prototype-iii)
+9. [Week 9](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-9-iterative-prototype-iv)
+10. [Week 10](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-10-iterative-prototype-v)
+
+## Week 10: Iterative Prototype V
+
+
+## Week 9: Iterative Prototype IV
+
+
+## Week 8: Iterative Prototype III
+
+
+## Week 7: Iterative Prototype II
+
+### This week will focus on digital prototyping
+After a lot trial and error (and cursing out flexbox for the nth time) I managed to create this during last week's lab:
+<img width="1109" alt="image" src="https://github.com/user-attachments/assets/99e7a67b-088c-405b-9606-2b8e8249ba48" />
+The colors just being place-holders. It took all the patience I hade to center the grid in the middle. 
+
+For initial prototyping purposes, I decided to make the squares clickable instead of drag and dropping the pixel from the sidebar. 
+
+After much confusion (and forgetting what I named my variables) we have clickable tiles:
+![Recording2025-03-13144014-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ddc75ac8-fd84-4239-9d2a-df7a40ed214d)
+
+### Time to make a sidebar that doesnt bring shame upon my family.
+hmmm i can't work with this color palette. It was nice for testing but it's starting to bother me. 
+Heading over to https://coolors.co/palettes/trending to find a palette.
+
+Some nice palettes:  
+![image](https://github.com/user-attachments/assets/57fb743b-5288-4943-a46a-1711f7104c8f)  
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/7e2e0c64-6f74-4338-9e3e-0e7eada9e4dd" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4bc23cff-cfad-4121-b90f-da0d0ff3da57" />  
+I like pastels, and I do like these colors, but they might be too muted for the pixel pictures.
+
+This one speaks to me:  
+![image](https://github.com/user-attachments/assets/c2f4f92a-6e07-481d-8c83-7d532cbb0d0f)  
+
+but does it fit the theme?
+(the theme being animal and nature if I haven't mentioned it yet. Might have kept that thought locked in.)
+
+Looking for some more greenery:  
+![image](https://github.com/user-attachments/assets/224d5691-9e18-48ed-8c17-9fe52458fcb0)
+
+Switched some colors, I like this look a lot better:  
+<img width="758" alt="image" src="https://github.com/user-attachments/assets/6e336282-e457-4eaa-9ff5-b2e2a1df5cad" />
+
+Tried to look at some sidebar inspo. Why are all of these so boring.  
+<img width="733" alt="image" src="https://github.com/user-attachments/assets/28366dbb-bbcc-430e-ab3e-3c851771a186" />
+
+Not entirely appplicable for my context but a good example to follow:    
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/93b45262-a1ba-4293-905c-5a5029a2e15b" />  
+https://www.behance.net/gallery/175538095/Sidebar-menu?tracking_source=search_projects|sidebar+ux&l=7
+
+Now why is H1 smaller than H2  
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/27f025a9-605e-456f-aefe-9f5cc7fa7c57" />  
+Nothing here makes sense  
+<img width="273" alt="image" src="https://github.com/user-attachments/assets/0a6c720a-e58a-43e7-96e4-b58ce963c931" />
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/3c59a1d7-4cfe-4209-b01f-a8685c56cb97" />
+
+
+
+
+## Week 6: Iterative Prototype I (March 6, 2025)
+<img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
+
+<img width="494" alt="image" src="https://github.com/user-attachments/assets/28eec967-8807-4c02-bf06-a1f7e6020b16" />
+
+<img width="878" alt="image" src="https://github.com/user-attachments/assets/73e3ffe5-5c5a-44ee-8af0-0b7c6da630b9" />
+
+<img width="487" alt="image" src="https://github.com/user-attachments/assets/299b93f0-7518-4c8f-a769-0d5c92ee33c4" />
+
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/88aeff90-6478-4deb-9ba9-b95c71c2b6c2" />
+
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/3025c400-2989-441d-a860-eb80a24ae9f3" />
+
+<img width="365" alt="image" src="https://github.com/user-attachments/assets/1de51341-000e-4f5e-87fa-809a1c568df9" />
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/59d2e065-8791-4783-ae55-6c6c24bd6742" />
+
+
+## Week 5: Exploration Prototype IIII (February 20, 2025)
+
+### Prototyping on Paper part 2
+
+![image](https://github.com/user-attachments/assets/da805cd6-00ff-4f6f-afd7-10b9af100884)
+
+![image](https://github.com/user-attachments/assets/c60a2d5b-65dd-4433-8fb6-ad313eec5845)
+
+![image](https://github.com/user-attachments/assets/6ea985eb-d2d0-4642-b0f5-2d0d04bf3596)
+
+![image](https://github.com/user-attachments/assets/05e14619-f965-485b-b2c6-34470c62dc50)
+
+List of endangered species: https://www.worldwildlife.org/species/directory?direction=desc&sort=extinction_status
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/61358dc6-ae86-4366-8966-f55b4f521871" />
+
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/535c5b1d-0df6-478f-ade6-d1e2fcc2d855" />
+
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/7e2198b4-57dd-4327-813b-404f2156dfe4" />
+
+<img width="526" alt="image" src="https://github.com/user-attachments/assets/15a7d670-0305-4a4a-ae2d-06431c6667a1" />
+
+<img width="990" alt="image" src="https://github.com/user-attachments/assets/7e458135-e78c-4da6-9aff-236f99f8d905" />
+
+
+
+## Week 4: Exploration Prototype III (February 13, 2025)
+
+### Prototyping on Paper
+
+Yet again I am burdened with a game that doesn't work (the ball doesn't move, I don't know how to make the paddle move either.)
+
+So we are working with paper and our imagination this week. 
+
+<img width="809" alt="image" src="https://github.com/user-attachments/assets/7c94579d-1ba7-4990-be84-85ba3d6bc077" />
+
+![image](https://github.com/user-attachments/assets/b130eb40-e186-4ef9-a521-aacd072bfacf)
+
+![image](https://github.com/user-attachments/assets/389b4ffc-80a0-439a-ac91-f099e7af47b9)
+
+![image](https://github.com/user-attachments/assets/1e952112-2d02-4c58-959d-336e16e0b52c)
+
+![image](https://github.com/user-attachments/assets/0583ec4d-19ae-43ac-9c13-02ec7b8287bb)
+
+
 
 ## Week 3: Exploration Prototype II (February 6, 2025)
 
@@ -29,12 +154,15 @@ Folder for process documentation.
 4. Ball bouncing physics is not working
    - yea no, i don't know how to fix that
   
-## How to add features?
+### How to add features?
 
 1. Random color changing on bonking a wall
    - Managed to get the color to change on bonk But why is it always white?
    - wait not it *does* change color, but not in the gameplay
 ![image](https://github.com/user-attachments/assets/8e5f3386-4b74-4f2c-a0f2-bb0b6a752719)
+
+## Conclusion
+- Nothing worked this week. I am tired. 
 
 
 ## Week 2: Exploration Protoype I (January 29, 2025)
