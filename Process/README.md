@@ -46,7 +46,12 @@ Some nice palettes:
 I like pastels, and I do like these colors, but they might be too muted for the pixel pictures.
 
 This one speaks to me:  
-![image](https://github.com/user-attachments/assets/c2f4f92a-6e07-481d-8c83-7d532cbb0d0f)
+![image](https://github.com/user-attachments/assets/c2f4f92a-6e07-481d-8c83-7d532cbb0d0f)  
+
+but does it fit the theme?
+(the theme being animal and nature if I haven't mentioned it yet. Might have kept that thought locked in.)
+
+Looking for some more greenery. 
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
