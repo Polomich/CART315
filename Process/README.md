@@ -25,6 +25,8 @@ Folder for process documentation.
 
 ## Week 7: Iterative Prototype II
 
+### This week will focus on digital prototyping
+After 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
 <img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
