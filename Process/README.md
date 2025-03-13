@@ -35,7 +35,9 @@ For initial prototyping purposes, I decided to make the squares clickable instea
 After much confusion (and forgetting what I named my variables) we have clickable tiles:
 ![Recording2025-03-13144014-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ddc75ac8-fd84-4239-9d2a-df7a40ed214d)
 
-Time to make a sidebar that doesnt bring shame upon my family.
+### Time to make a sidebar that doesnt bring shame upon my family.
+hmmm i can't work with this color palette. It was nice for testing but it's starting to bother me. 
+Heading over to https://coolors.co/palettes/trending to find a palette.
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
