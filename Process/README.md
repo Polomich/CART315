@@ -75,10 +75,22 @@ We got a sidebar going
 
 ### Some comparisons 
 <img width="226" alt="image" src="https://github.com/user-attachments/assets/c90c283c-b7b4-4036-a830-8795f6ff976f" />  
-| Like                  | Dislike              | Comment          |
-| --------------------- | -------------------- | ---------------- |
-| Colors are harmonious | Note enough contrast | Make bg lighter? |
 
+| Like | Dislike | Comment |
+| --- | --- | --- |
+| Colors are harmonious | Not enough contrast | Make bg lighter? |
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/ee00b59b-03b0-4115-9358-59eafa021aea" />
+
+| Like | Dislike | Comment |
+| --- | --- | --- |
+| Good contrast | I really dont like that bg color | keep this light, but diff shade |
+
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/51305cd3-5316-4edc-a392-84a613a78c6c" />  
+
+| Like | Dislike | Comment |
+| --- | --- | --- |
+| Good contrast, good harmony |  | I went back to the bg i liked and made the text darker instead |
 
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
