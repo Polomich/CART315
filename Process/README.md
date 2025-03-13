@@ -21,6 +21,7 @@ Folder for process documentation.
 
 
 ## Week 8: Iterative Prototype III
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/50f69501-7f49-4da6-8695-cf001d6686f0" />
 
 
 ## Week 7: Iterative Prototype II
@@ -93,6 +94,8 @@ We got a sidebar going
 | Good contrast, good harmony |  | I went back to the bg i liked and made the text darker instead |
 
 Now the tiles border are way too dark and also clash with the color scheme.
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/d3f2a8ae-ef85-4b56-8b40-87658c7be410" />
+Better.
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
 <img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
