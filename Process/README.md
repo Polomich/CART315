@@ -32,6 +32,12 @@ The colors just being place-holders. It took all the patience I hade to center t
 
 For initial prototyping purposes, I decided to make the squares clickable instead of drag and dropping the pixel from the sidebar. 
 
+After much confusion (and forgetting what I named my variables) we have clickable tiles:
+![Recording2025-03-13144014-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ddc75ac8-fd84-4239-9d2a-df7a40ed214d)
+
+Time to make a sidebar that doesnt bring shame upon my family.
+
+
 ## Week 6: Iterative Prototype I (March 6, 2025)
 <img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
 
