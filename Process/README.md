@@ -25,6 +25,19 @@ Folder for process documentation.
 Messing around and testing the "pixel-art-ity" of the game  
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/50f69501-7f49-4da6-8695-cf001d6686f0" />
 
+### Adding features
+
+While discussing games with a classmate last class, we started talking about Battleship.  
+It got me thinking, a lot of games with a square-divided board distinguish the positions on the board by giving them coordinates.  
+<img width="666" alt="image" src="https://github.com/user-attachments/assets/b054cb18-ba77-4d84-8baa-2250d2629529" />
+(https://en.wikipedia.org/wiki/Battleship_%28game%29)
+
+![image](https://github.com/user-attachments/assets/92c7f0e4-615c-4730-8eeb-92193445e6e9)
+(https://www.chess-universe.shop/blogs/news/lets-do-some-chess-puzzles)
+
+
+Now, I am too lazy to go write all the x and y coordinates. So we're going to spend the next 10min writing code to do something that I would've taken 2min to do by hand.
+
 
 ## Week 7: Iterative Prototype II
 
