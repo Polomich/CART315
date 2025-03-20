@@ -22,8 +22,8 @@ Folder for process documentation.
 ## Font
 
 I wanted my font to match the aesthetic of the game, which is pixels.  
-I found this Google font: https://fonts.google.com/specimen/Jersey+20?preview.text=Pixel%20Time%0ALevel&preview.size=20&categoryFilters=Appearance:%2FTheme%2FPixel
-And I am really pleased with the results:
+I found this Google font: https://fonts.google.com/specimen/Jersey+20?preview.text=Pixel%20Time%0ALevel&preview.size=20&categoryFilters=Appearance:%2FTheme%2FPixel  
+And I am really pleased with the results:  
 
 <img width="1116" alt="image" src="https://github.com/user-attachments/assets/5c87c72d-7602-4990-8d9d-38f017d8a134" />  
 
