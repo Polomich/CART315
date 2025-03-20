@@ -41,6 +41,10 @@ Looking back at it, white tiles might be a problem with such a pale background.
 The board should have been white from the start:  
 ![image](https://github.com/user-attachments/assets/5216c46d-d76b-4fe1-bba5-380fb9688dcb)
 
+## Level Menu 
+
+To test any level, we need a level menu.  
+![image](https://github.com/user-attachments/assets/5999b59c-18f9-4553-9c99-d1b7d0abddd0)
 
 
 ### Adding features
