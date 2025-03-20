@@ -38,7 +38,7 @@ Like this:
 
 Looking back at it, white tiles might be a problem with such a pale background.
 
-The board should have been white from the start:  
+The board should have been white from the start anyways:  
 ![image](https://github.com/user-attachments/assets/5216c46d-d76b-4fe1-bba5-380fb9688dcb)
 
 ## Level Menu 
