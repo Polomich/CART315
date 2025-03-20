@@ -46,6 +46,9 @@ The board should have been white from the start:
 To test any level, we need a level menu.  
 <img height="600" alt="image" src="https://github.com/user-attachments/assets/5999b59c-18f9-4553-9c99-d1b7d0abddd0"/>
 
+It's pretty!  
+![ScreenRecording2025-03-20173048-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/779feccb-d6dd-49fd-ab9c-719e0c59d0f7)
+
 
 ### Adding features
 
