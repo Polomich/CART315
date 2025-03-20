@@ -38,7 +38,9 @@ https://dribbble.com/shots/25763014-Mini-Timers
 Testing the timer:  
 ![ScreenRecording2025-03-20192216-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2bff0cff-0421-4e69-a4ca-e1537e3778d9)  
 it works 👍  
-The timer takes a moment to start but it counts down like it should. 
+The timer takes a moment to start but it counts down like it should.  
+
+Now onto figuring out how to make it count from minutes to seconds.
 
 
 ## Week 8: Iterative Prototype III
