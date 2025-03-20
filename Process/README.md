@@ -36,7 +36,7 @@ So to make it easier, the outline of the shape will be grayed in.
 Like this:  
 <img width="231" alt="image" src="https://github.com/user-attachments/assets/e4655eba-27cb-4cb8-aad7-e7eb8ae42365" /> <img width="237" alt="image" src="https://github.com/user-attachments/assets/b6f8a44c-90c1-4eb5-855a-4d1f6c0e0477" />
 
-
+Looking back at it, white tiles might be a problem with such a pale background.
 
 
 ### Adding features
