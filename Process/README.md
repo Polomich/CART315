@@ -29,6 +29,11 @@ And I am really pleased with the results:
 
 It took some adjusting on the letter spacing (which I just learned you can do in CSS!).
 
+## Timer
+
+I will make a timer inspired by this design:
+![image](https://github.com/user-attachments/assets/c385efd5-d283-422b-b012-cf8cf28f7d94)
+https://dribbble.com/shots/25763014-Mini-Timers
 
 ## Week 8: Iterative Prototype III
 
