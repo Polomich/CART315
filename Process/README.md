@@ -43,6 +43,7 @@ Now, I am too lazy to go write all the x and y coordinates. So we're going to sp
 
 .... How do you iterate an alphabet ....
 
+This is how: https://www.geeksforgeeks.org/javascript-program-to-print-alphabets-from-a-to-z-using-loop/
 
 
 ## Week 7: Iterative Prototype II
