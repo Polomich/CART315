@@ -28,6 +28,16 @@ Messing around and testing the "pixel-art-ity" of the game
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/50f69501-7f49-4da6-8695-cf001d6686f0" />  
 
 How does one design a beginner level that is both easy to complete but not boring?
+Some inspiration:  
+<img width="1054" alt="image" src="https://github.com/user-attachments/assets/a49a0982-6a2e-4486-b2a1-0cbc362e6019" />
+
+Thinking of it, it might be really difficult to remember where exactly the pixels are. 
+So to make it easier, the outline of the shape will be grayed in.  
+Like this:  
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/e4655eba-27cb-4cb8-aad7-e7eb8ae42365" /> <img width="237" alt="image" src="https://github.com/user-attachments/assets/b6f8a44c-90c1-4eb5-855a-4d1f6c0e0477" />
+
+
+
 
 ### Adding features
 
