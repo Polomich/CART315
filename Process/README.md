@@ -72,6 +72,10 @@ This is how: https://www.geeksforgeeks.org/javascript-program-to-print-alphabets
 
 Well, that was way quicker and easier than I thought.
 
+### Final look for today
+<img width="1118" alt="image" src="https://github.com/user-attachments/assets/e0c2ba1f-ca9d-4330-9494-08a9f36c3204" />
+
+
 
 ## Week 7: Iterative Prototype II
 
