@@ -37,6 +37,7 @@ It got me thinking, a lot of games with a square-divided board distinguish the p
 
 
 Now, I am too lazy to go write all the x and y coordinates. So we're going to spend the next 10min writing code to do something that I would've taken 2min to do by hand.
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/2245868c-c00f-4cbb-a149-c26efbab5451" />
 
 
 ## Week 7: Iterative Prototype II
