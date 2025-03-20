@@ -50,5 +50,7 @@ function changeColor(tile) {
 }
 
 function setUpGame(){
-  
+
 }
+
+

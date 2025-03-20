@@ -1,6 +1,7 @@
 html, body, *{
     padding: 0px;
     margin: 0px;
+    font-family: "Jersey 20", sans-serif;
 }
 
 #game-wrapper{
@@ -54,11 +55,14 @@ html, body, *{
     border-collapse: collapse;
     padding: 20px;
     margin: 0px;
-    background-color: white;
 }
 
 .tile{
-    background: none;
+    background: white;
+}
+
+.tile:hover{
+    cursor: pointer;
 }
 
 #sidepane{
@@ -70,9 +74,18 @@ html, body, *{
     width: 20vw;
 }
 
+.sidepane-item{
+    margin: 20px 0px;
+}
+
+#title{
+    margin: 8px 0;
+
+    font-size: 3.5em; 
+    letter-spacing: 0.1em;
+}
+
 #menu-wrapper{
-    /* background: white; */
-    /* border: 2px solid blue; */
     margin: 16px;
     color: #396044;
 }
@@ -81,27 +94,32 @@ html, body, *{
     margin: 8px 0;
 }
 
-#menu-list{
-    margin: 8px 0;
+#level h2{
+    letter-spacing: 3px;
+    font-size: 2.5em; 
+    display: inline;
+    padding: 0 5px;
+}
+
+#tile-list{
     color: #022b3a;
     height: auto;
 }
 
-#menu-list ul{
+#tile-list ul{
     list-style-type: none;
 }
 
-#menu-list li{
+#tile-list li{
     margin: 20px 0px;
-    /* background-color: white; */
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
-#menu-list li::before{
+#tile-list li::before{
     content: "";
     border: 1px solid #022b3a;
     padding: 4px 16px;
-    margin-right: 8px;
+    margin-right: 14px;
     background-color: red;
 }
 
@@ -109,15 +127,46 @@ hr{
     border-top: 1px solid aliceblue;
 }
 
-#done-div{
-    margin-top: 20px;
-    
-}
-
 #done-button{
     padding: 10px;
-    font-size: 1.2em;
-    border: 2px solid #396044;
+    width: 100%;
+
+    border: 1px solid #022b3a;
     border-radius: 8px;
+    background-color: #396044;
+
     text-transform: uppercase;
+    color: #deede6;
+    font-size: 1.7em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+#done-button:hover{
+    background-color: #022b3a;
+    cursor: pointer;
+}
+
+#levels-menu{
+    /* border: 2px solid red; */
+}
+
+#levels-menu li{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #deede6;
+
+    border: 1px solid #022b3a;
+    border-radius: 8px;
+
+    list-style-type: none;
+    font-size: 1.7em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#levels-menu li:active, #levels-menu li:hover{
+    background-color: #022b3a;
+    color: #deede6;
+    cursor: pointer;
 }

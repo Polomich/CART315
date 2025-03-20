@@ -3,6 +3,9 @@
     <title>Pixel Time</title>
     <link rel="stylesheet" href="index.css" />
     <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
   </head>
 
   <body onload="onLoadFunc()">
@@ -309,15 +312,18 @@
 
     <section id="sidepane">
         <section id="menu-wrapper" >
-            <div id="menu-top">
-                <h1 style="font-size: 2em; margin: 8px 0;">Pixel Time</h1>
+
+            <div id="menu-top" class="sidepane-item">
+                <h1 id="title">Pixel Time</h1>
             </div>
+
             <hr>
             <section id="menu">
-                <div id="level">
-                    <h2 style="font-size: 1.5em; display: inline;">Level</h2> <h2 id="level-num" style="font-size: 1.5em; display: inline;">1</h2>
+                <div id="level" class="sidepane-item">
+                    <h2>Level</h2> <h2 id="level-num">1</h2>
                 </div>
-                <div id="menu-list">
+
+                <div id="tile-list" class="sidepane-item">
                     <ul>
                         <li>0</li>
                         <li>2</li>
@@ -325,9 +331,24 @@
                         <li>6</li>
                     </ul>
                 </div>
-                <div id="done-div">
+
+                <div id="done-div" class="sidepane-item">
                     <button id="done-button">Done</button>
                 </div>
+
+                <hr>
+
+                <section id="levels-menu" class="sidepane-item">
+                    <div>
+                        <ul>
+                            <li onclick="">Level 1</li>
+                            <li onclick="">Level 2</li>
+                            <li onclick="">Level 3</li>
+                            <li onclick="">Level 4</li>
+                        </ul>
+                    </div>
+                </section>
+
             </section>
         </section>
     </section>
