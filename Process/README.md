@@ -35,6 +35,11 @@ I will make a timer inspired by this design:
 ![image](https://github.com/user-attachments/assets/c385efd5-d283-422b-b012-cf8cf28f7d94)
 https://dribbble.com/shots/25763014-Mini-Timers
 
+Testing the timer:
+![ScreenRecording2025-03-20192216-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2bff0cff-0421-4e69-a4ca-e1537e3778d9)  
+it works 👍
+
+
 ## Week 8: Iterative Prototype III
 
 ### Making Levels
