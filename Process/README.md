@@ -44,7 +44,7 @@ The board should have been white from the start:
 ## Level Menu 
 
 To test any level, we need a level menu.  
-![image](https://github.com/user-attachments/assets/5999b59c-18f9-4553-9c99-d1b7d0abddd0)
+<img height="100" alt="image" src="https://github.com/user-attachments/assets/5999b59c-18f9-4553-9c99-d1b7d0abddd0"/>
 
 
 ### Adding features
