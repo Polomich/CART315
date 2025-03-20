@@ -18,6 +18,33 @@ html, body, *{
     width: 80vw;
 }
 
+.coord-table{
+    border-collapse: collapse;
+}
+
+.coord-table td{
+    border: 1px solid #4458a2;
+    color: #2d3b6c;
+    border-collapse: collapse;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#horiz-coord-table{
+    transform: translate(0px, 41px);
+}
+
+#vertic-coord-table{
+    transform-origin: left top;
+    transform:translate(0px, 41px) rotate(90deg);
+}
+
+#vertic-coord-table td{
+    transform: rotate(270deg);
+}
+
 #game-table{
     border-collapse: collapse;
 }
@@ -27,6 +54,7 @@ html, body, *{
     border-collapse: collapse;
     padding: 20px;
     margin: 0px;
+    background-color: white;
 }
 
 .tile{
@@ -46,6 +74,7 @@ html, body, *{
     /* background: white; */
     /* border: 2px solid blue; */
     margin: 16px;
+    color: #396044;
 }
 
 #menu{
@@ -54,6 +83,8 @@ html, body, *{
 
 #menu-list{
     margin: 8px 0;
+    color: #022b3a;
+    height: auto;
 }
 
 #menu-list ul{
@@ -68,7 +99,7 @@ html, body, *{
 
 #menu-list li::before{
     content: "";
-    border: 1px solid black;
+    border: 1px solid #022b3a;
     padding: 4px 16px;
     margin-right: 8px;
     background-color: red;
@@ -76,4 +107,17 @@ html, body, *{
 
 hr{
     border-top: 1px solid aliceblue;
+}
+
+#done-div{
+    margin-top: 20px;
+    
+}
+
+#done-button{
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #396044;
+    border-radius: 8px;
+    text-transform: uppercase;
 }
