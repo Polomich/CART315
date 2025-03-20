@@ -21,6 +21,8 @@ Folder for process documentation.
 
 
 ## Week 8: Iterative Prototype III
+
+Messing around and testing the "pixel-art-ity" of the game  
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/50f69501-7f49-4da6-8695-cf001d6686f0" />
 
 
