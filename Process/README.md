@@ -22,6 +22,49 @@ Folder for process documentation.
 
 ## Week 8: Iterative Prototype III
 
+### Making Levels
+
+Messing around and testing the "pixel-art-ity" of the game  
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/50f69501-7f49-4da6-8695-cf001d6686f0" />  
+
+How does one design a beginner level that is both easy to complete but not boring?
+Some inspiration:  
+<img width="1054" alt="image" src="https://github.com/user-attachments/assets/a49a0982-6a2e-4486-b2a1-0cbc362e6019" />
+
+Thinking of it, it might be really difficult to remember where exactly the pixels are. 
+So to make it easier, the outline of the shape will be grayed in.  
+Like this:  
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/e4655eba-27cb-4cb8-aad7-e7eb8ae42365" /> <img width="237" alt="image" src="https://github.com/user-attachments/assets/b6f8a44c-90c1-4eb5-855a-4d1f6c0e0477" />
+
+Looking back at it, white tiles might be a problem with such a pale background.
+
+The board should have been white from the start:  
+![image](https://github.com/user-attachments/assets/5216c46d-d76b-4fe1-bba5-380fb9688dcb)
+
+
+
+### Adding features
+
+While discussing games with a classmate last class, we started talking about Battleship.  
+It got me thinking, a lot of games with a square-divided board distinguish the positions on the board by giving them coordinates.  
+<img width="666" alt="image" src="https://github.com/user-attachments/assets/b054cb18-ba77-4d84-8baa-2250d2629529" />
+(https://en.wikipedia.org/wiki/Battleship_%28game%29)
+
+![image](https://github.com/user-attachments/assets/92c7f0e4-615c-4730-8eeb-92193445e6e9)
+(https://www.chess-universe.shop/blogs/news/lets-do-some-chess-puzzles)
+
+
+Now, I am too lazy to go write all the x and y coordinates. So we're going to spend the next 10min writing code to do something that I would've taken 2min to do by hand.  
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/2245868c-c00f-4cbb-a149-c26efbab5451" />
+
+.... How do you iterate an alphabet ....
+
+This is how: https://www.geeksforgeeks.org/javascript-program-to-print-alphabets-from-a-to-z-using-loop/
+
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/dff18126-270b-48b4-933d-2882e8481fd8" />  
+
+Well, that was way quicker and easier than I thought.
+
 
 ## Week 7: Iterative Prototype II
 
@@ -70,8 +113,31 @@ Nothing here makes sense
 <img width="273" alt="image" src="https://github.com/user-attachments/assets/0a6c720a-e58a-43e7-96e4-b58ce963c931" />
 <img width="376" alt="image" src="https://github.com/user-attachments/assets/3c59a1d7-4cfe-4209-b01f-a8685c56cb97" />
 
+We got a sidebar going  
+<img width="232" alt="image" src="https://github.com/user-attachments/assets/395fd4e3-33cc-41db-84cf-c7757e3146ab" />
 
+### Some comparisons 
+<img width="226" alt="image" src="https://github.com/user-attachments/assets/c90c283c-b7b4-4036-a830-8795f6ff976f" />  
 
+| Like | Dislike | Comment |
+| --- | --- | --- |
+| Colors are harmonious | Not enough contrast | Make bg lighter? |
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/ee00b59b-03b0-4115-9358-59eafa021aea" />
+
+| Like | Dislike | Comment |
+| --- | --- | --- |
+| Good contrast | I really dont like that bg color | keep this light, but diff shade |
+
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/51305cd3-5316-4edc-a392-84a613a78c6c" />  
+
+| Like | Dislike | Comment |
+| --- | --- | --- |
+| Good contrast, good harmony |  | I went back to the bg i liked and made the text darker instead |
+
+Now the tiles border are way too dark and also clash with the color scheme.  
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/d3f2a8ae-ef85-4b56-8b40-87658c7be410" />
+Better.
 
 ## Week 6: Iterative Prototype I (March 6, 2025)
 <img width="530" alt="image" src="https://github.com/user-attachments/assets/8672ac24-da19-4901-979a-b5ad2fe61138" />
