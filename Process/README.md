@@ -45,6 +45,9 @@ Now, I am too lazy to go write all the x and y coordinates. So we're going to sp
 
 This is how: https://www.geeksforgeeks.org/javascript-program-to-print-alphabets-from-a-to-z-using-loop/
 
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/dff18126-270b-48b4-933d-2882e8481fd8" />  
+Well, that was way quicker and easiewr than I thought.
+
 
 ## Week 7: Iterative Prototype II
 
