@@ -25,7 +25,7 @@ I wanted my font to match the aesthetic of the game, which is pixels.
 I found this Google font: https://fonts.google.com/specimen/Jersey+20?preview.text=Pixel%20Time%0ALevel&preview.size=20&categoryFilters=Appearance:%2FTheme%2FPixel  
 And I am really pleased with the results:  
 
-<img width="1116" alt="image" src="https://github.com/user-attachments/assets/5c87c72d-7602-4990-8d9d-38f017d8a134" />  
+<img width="1116" alt="image" src="https://github.com/user-attachments/assets/536e4fd4-c27a-4199-89e7-3057f41bb46d" />
 
 It took some adjusting on the letter spacing (which I just learned you can do in CSS!).
 
