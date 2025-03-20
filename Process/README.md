@@ -19,6 +19,16 @@ Folder for process documentation.
 
 ## Week 9: Iterative Prototype IV
 
+## Font
+
+I wanted my font to match the aesthetic of the game, which is pixels.  
+I found this Google font: https://fonts.google.com/specimen/Jersey+20?preview.text=Pixel%20Time%0ALevel&preview.size=20&categoryFilters=Appearance:%2FTheme%2FPixel  
+And I am really pleased with the results:  
+
+<img width="1116" alt="image" src="https://github.com/user-attachments/assets/536e4fd4-c27a-4199-89e7-3057f41bb46d" />
+
+It took some adjusting on the letter spacing (which I just learned you can do in CSS!).
+
 
 ## Week 8: Iterative Prototype III
 
@@ -38,9 +48,16 @@ Like this:
 
 Looking back at it, white tiles might be a problem with such a pale background.
 
-The board should have been white from the start:  
+The board should have been white from the start anyways:  
 ![image](https://github.com/user-attachments/assets/5216c46d-d76b-4fe1-bba5-380fb9688dcb)
 
+## Level Menu 
+
+To test any level, we need a level menu.  
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/5999b59c-18f9-4553-9c99-d1b7d0abddd0"/>
+
+It's pretty!  
+![ScreenRecording2025-03-20173048-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/779feccb-d6dd-49fd-ab9c-719e0c59d0f7)
 
 
 ### Adding features
@@ -64,6 +81,10 @@ This is how: https://www.geeksforgeeks.org/javascript-program-to-print-alphabets
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/dff18126-270b-48b4-933d-2882e8481fd8" />  
 
 Well, that was way quicker and easier than I thought.
+
+### Final look for today
+<img width="1118" alt="image" src="https://github.com/user-attachments/assets/e0c2ba1f-ca9d-4330-9494-08a9f36c3204" />
+
 
 
 ## Week 7: Iterative Prototype II
