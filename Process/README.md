@@ -42,6 +42,11 @@ The timer takes a moment to start but it counts down like it should.
 
 Now onto figuring out how to make it count from minutes to seconds.
 
+![ScreenRecording2025-03-27152551-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ea8855bf-708d-4f12-a17c-fd77cc42eb77)
+
+So it does work...  
+Problem is: if the page is not refreshed, it will keep track of every timer and show them at the same time, e.i: showing 00:00 between the time of the new timer.  
+
 
 ## Week 8: Iterative Prototype III
 
