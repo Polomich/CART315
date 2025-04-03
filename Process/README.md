@@ -35,11 +35,8 @@ Slice.
 
 Good. We got the level number.  
 
-
-
-
 ### Pop up
-
+From this tutotrial: https://www.w3schools.com/howto/howto_js_popup.asp
 
 
 ## Week 9: Iterative Prototype IV
