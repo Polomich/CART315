@@ -31,6 +31,7 @@ Now split.
 ![image](https://github.com/user-attachments/assets/ac935e9a-d6d3-4283-a4f3-a1f68a2651df)
  <img width="248" alt="image" src="https://github.com/user-attachments/assets/350c9351-56eb-4745-9e09-fdf840659187" />  
 I mean splice.  
+Slice.   
 
 Good. We got the level number.  
 
