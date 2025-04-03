@@ -27,7 +27,7 @@ I am really scared of making this game a reality. So let's break it down.
 <img width="234" alt="image" src="https://github.com/user-attachments/assets/09ce9e2d-6bca-4a8f-ae1a-3de0041a8e66" />
 
 Ok, cool, I can get the text from the level button.  
-Now split. 
+Now split.   
 ![image](https://github.com/user-attachments/assets/ac935e9a-d6d3-4283-a4f3-a1f68a2651df)
  <img width="248" alt="image" src="https://github.com/user-attachments/assets/350c9351-56eb-4745-9e09-fdf840659187" />  
 I mean splice.  
