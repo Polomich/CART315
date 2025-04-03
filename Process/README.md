@@ -46,6 +46,7 @@ Inspo for popup:
 Some stlying later ...  
 <img width="347" alt="image" src="https://github.com/user-attachments/assets/75ac4a2b-9822-40c1-9538-f65a1e6acb2b" />
 
+![ScreenRecording2025-04-03194220-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/da78cef9-a9ac-491b-946f-97555c7bd3c9)
 
 
 ### Color Intermission
