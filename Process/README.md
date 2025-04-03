@@ -21,6 +21,12 @@ Folder for process documentation.
 I am really scared of making this game a reality. So let's break it down.  
 ![image](https://github.com/user-attachments/assets/21168cd5-e37c-49c3-a5bc-05b784da65f3)
 
+### Figuring out how to get the level
+![image](https://github.com/user-attachments/assets/f27d8bf3-7ae3-4e7f-895e-2224e1f1f686)
+<img width="170" alt="image" src="https://github.com/user-attachments/assets/7c65c59a-7145-4d55-a989-17cf8fd12371" />
+<img width="234" alt="image" src="https://github.com/user-attachments/assets/09ce9e2d-6bca-4a8f-ae1a-3de0041a8e66" />
+
+
 ### Pop up
 
 
