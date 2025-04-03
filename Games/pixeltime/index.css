@@ -1,7 +1,7 @@
 html, body, *{
     padding: 0px;
     margin: 0px;
-    font-family: "Jersey 20", sans-serif;
+    font-family: "Jersey 20", "Courier New", monospace, sans-serif;
 }
 
 #game-wrapper{
@@ -16,7 +16,81 @@ html, body, *{
     justify-content: center;
     align-items: center;
     height:100vh;
-    width: 80vw;
+    width: 93vw;
+}
+
+#popup-wrapper{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#popup{
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    top:40%;
+    left: 32%;
+
+    width: 30vw;
+    background-color: #555;
+    border-radius: 6px;
+
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+#level-popup{
+    width: 20%;
+    margin: auto;
+    padding: 4px;
+
+    background: black;
+
+    font-size: 25px;
+}
+
+#ready{
+    display: block;
+    margin: 20px;
+}
+
+#start-button{
+    width: fit-content;
+    height: fit-content;
+
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    padding: 5px 10px;
+
+    border: 2px solid black;
+    border-radius: 6px;
+
+    font-size: 30px;
+
+    cursor: pointer;
+}
+
+
+#timer-wrapper{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#timer-outside{
+    background: turquoise;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+#timer-inside{
+    background: gainsboro;
+    padding: 15px;
+    border: 4px solid black;
+    border-radius: 10px;
 }
 
 .coord-table{
@@ -51,7 +125,7 @@ html, body, *{
 }
 
 #game-table td{
-    border: 1px solid #A9B4DB;
+    border: 0.5px solid #A9B4DB;
     border-collapse: collapse;
     padding: 20px;
     margin: 0px;

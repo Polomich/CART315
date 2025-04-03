@@ -3,354 +3,375 @@
     <title>Pixel Time</title>
     <link rel="stylesheet" href="index.css" />
     <script src="index.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body onload="onLoadFunc()">
+    <div id="popup-wrapper">
+      <div id="popup">
+        <div id="level-popup"></div>
+        <span id="ready">Ready?</span>
+        <button id="start-button" onclick="startLevel()">START</button>
+      </div>
+    </div>
     <section id="game-wrapper">
+      <section id="game">
 
-    <section id="game">
-
-        <section id="tables-wrapper">
-            <table id="horiz-coord-table" class="coord-table">
-                <tr id="horiz-coord">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-            <table id="vertic-coord-table" class="coord-table">
-                <tr id="vert-coord">
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-
-            <table id="game-table">
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>                
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </section>
-    </section>
-
-    <section id="sidepane">
-        <section id="menu-wrapper" >
-
-            <div id="menu-top" class="sidepane-item">
-                <h1 id="title">Pixel Time</h1>
-            </div>
-
-            <hr>
-            <section id="menu">
-                <div id="level" class="sidepane-item">
-                    <h2>Level</h2> <h2 id="level-num">1</h2>
-                </div>
-
-                <div id="tile-list" class="sidepane-item">
-                    <ul>
-                        <li>0</li>
-                        <li>2</li>
-                        <li>6</li>
-                        <li>6</li>
-                    </ul>
-                </div>
-
-                <div id="done-div" class="sidepane-item">
-                    <button id="done-button">Done</button>
-                </div>
-
-                <hr>
-
-                <section id="levels-menu" class="sidepane-item">
-                    <div>
-                        <ul>
-                            <li onclick="">Level 1</li>
-                            <li onclick="">Level 2</li>
-                            <li onclick="">Level 3</li>
-                            <li onclick="">Level 4</li>
-                        </ul>
+        <section id="timer-wrapper">
+            <section id="timer">
+                <div id="timer-outside">
+                    <div id="timer-inside">
+                        <div id="time-div">
+                        </div>
                     </div>
-                </section>
-
+                </div>
             </section>
         </section>
+
+        <section id="tables-wrapper">
+          <table id="horiz-coord-table" class="coord-table">
+            <tr id="horiz-coord">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <table id="vertic-coord-table" class="coord-table">
+            <tr id="vert-coord">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+
+          <table id="game-table">
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </section>
+      </section>
+
+
+      <section id="sidepane">
+        <section id="menu-wrapper">
+          <div id="menu-top" class="sidepane-item">
+            <h1 id="title">Pixel Time</h1>
+          </div>
+
+          <hr />
+          <section id="menu">
+            <div id="level" class="sidepane-item">
+              <h2>Level</h2>
+              <h2 id="level-num">1</h2>
+            </div>
+
+            <div id="tile-list" class="sidepane-item">
+              <ul>
+                <li>0</li>
+                <li>2</li>
+                <li>6</li>
+                <li>6</li>
+              </ul>
+            </div>
+
+            <div id="done-div" class="sidepane-item">
+              <button id="done-button">Done</button>
+            </div>
+
+            <hr />
+
+            <section id="levels-menu" class="sidepane-item">
+              <div>
+                <ul>
+                  <li onclick="setUpLevel(this)">Level 1</li>
+                  <li onclick="setUpLevel(this)">Level 2</li>
+                  <li onclick="setUpLevel(this)">Level 3</li>
+                  <li onclick="setUpLevel(this)">Level 4</li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
     </section>
   </body>
-</html>
+</ht
