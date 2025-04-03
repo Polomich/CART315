@@ -41,7 +41,11 @@ From this tutotrial: https://www.w3schools.com/howto/howto_js_popup.asp
 After trying it out, it is not actually what I need, but a good direction.
 
 Inspo for popup:  
-<img width="100" src="https://github.com/user-attachments/assets/e50e6184-52e7-43cb-a60c-89cd752b72e4"/>
+<img width="300" src="https://github.com/user-attachments/assets/e50e6184-52e7-43cb-a60c-89cd752b72e4"/>
+
+Some stlying later ...  
+<img width="347" alt="image" src="https://github.com/user-attachments/assets/75ac4a2b-9822-40c1-9538-f65a1e6acb2b" />
+
 
 
 ### Color Intermission
