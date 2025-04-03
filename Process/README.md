@@ -40,6 +40,10 @@ From this tutotrial: https://www.w3schools.com/howto/howto_js_popup.asp
 
 After trying it out, it is not actually what I need, but a good direction.
 
+Inspo for popup:  
+![image](https://github.com/user-attachments/assets/e50e6184-52e7-43cb-a60c-89cd752b72e4)
+
+
 ### Color Intermission
 The current colors palette:  
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/6b0ce282-1ca4-4253-bb18-8a137d9f4d34" />
