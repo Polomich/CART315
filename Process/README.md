@@ -16,6 +16,43 @@ Folder for process documentation.
 
 ## Week 10: Iterative Prototype V
 
+## Making a game loop
+
+I am really scared of making this game a reality. So let's break it down.  
+![image](https://github.com/user-attachments/assets/21168cd5-e37c-49c3-a5bc-05b784da65f3)
+
+### Figuring out how to get the level
+![image](https://github.com/user-attachments/assets/f27d8bf3-7ae3-4e7f-895e-2224e1f1f686)
+<img width="170" alt="image" src="https://github.com/user-attachments/assets/7c65c59a-7145-4d55-a989-17cf8fd12371" />
+<img width="234" alt="image" src="https://github.com/user-attachments/assets/09ce9e2d-6bca-4a8f-ae1a-3de0041a8e66" />
+
+Ok, cool, I can get the text from the level button.  
+Now split.   
+![image](https://github.com/user-attachments/assets/ac935e9a-d6d3-4283-a4f3-a1f68a2651df)
+ <img width="248" alt="image" src="https://github.com/user-attachments/assets/350c9351-56eb-4745-9e09-fdf840659187" />  
+I mean splice.  
+Slice.   
+
+Good. We got the level number.  
+
+### Pop up
+From this tutotrial: https://www.w3schools.com/howto/howto_js_popup.asp  
+
+After trying it out, it is not actually what I need, but a good direction.
+
+Inspo for popup:  
+<img width="300" src="https://github.com/user-attachments/assets/e50e6184-52e7-43cb-a60c-89cd752b72e4"/>
+
+Some stlying later ...  
+<img width="347" alt="image" src="https://github.com/user-attachments/assets/75ac4a2b-9822-40c1-9538-f65a1e6acb2b" />
+
+![ScreenRecording2025-04-03194220-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/da78cef9-a9ac-491b-946f-97555c7bd3c9)
+
+
+### Color Intermission
+The current colors palette:  
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/6b0ce282-1ca4-4253-bb18-8a137d9f4d34" />
+
 
 ## Week 9: Iterative Prototype IV
 
@@ -28,6 +65,24 @@ And I am really pleased with the results:
 <img width="1116" alt="image" src="https://github.com/user-attachments/assets/536e4fd4-c27a-4199-89e7-3057f41bb46d" />
 
 It took some adjusting on the letter spacing (which I just learned you can do in CSS!).
+
+## Timer
+
+I will make a timer inspired by this design:  
+<img width="500" src="https://github.com/user-attachments/assets/c385efd5-d283-422b-b012-cf8cf28f7d94"/>
+https://dribbble.com/shots/25763014-Mini-Timers
+
+Testing the timer:  
+![ScreenRecording2025-03-20192216-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2bff0cff-0421-4e69-a4ca-e1537e3778d9)  
+it works 👍  
+The timer takes a moment to start but it counts down like it should.  
+
+Now onto figuring out how to make it count from minutes to seconds.
+
+![ScreenRecording2025-03-27152551-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ea8855bf-708d-4f12-a17c-fd77cc42eb77)
+
+So it does work...  
+Problem is: if the page is not refreshed, it will keep track of every timer and show them at the same time, e.i: showing 00:00 between the time of the new timer.  
 
 
 ## Week 8: Iterative Prototype III
