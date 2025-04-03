@@ -16,6 +16,12 @@ Folder for process documentation.
 
 ## Week 10: Iterative Prototype V
 
+## Making a game loop
+
+I am really scared of making this game a reality. So let's break it down.  
+![image](https://github.com/user-attachments/assets/21168cd5-e37c-49c3-a5bc-05b784da65f3)
+
+
 
 ## Week 9: Iterative Prototype IV
 
