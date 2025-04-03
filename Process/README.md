@@ -36,7 +36,13 @@ Slice.
 Good. We got the level number.  
 
 ### Pop up
-From this tutotrial: https://www.w3schools.com/howto/howto_js_popup.asp
+From this tutotrial: https://www.w3schools.com/howto/howto_js_popup.asp  
+
+After trying it out, it is not actually what I need, but a good direction.
+
+### Color Intermission
+The current colors palette:  
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/6b0ce282-1ca4-4253-bb18-8a137d9f4d34" />
 
 
 ## Week 9: Iterative Prototype IV
