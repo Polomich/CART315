@@ -13,10 +13,15 @@ Folder for process documentation.
 8. [Week 8](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-8-iterative-prototype-iii)
 9. [Week 9](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-9-iterative-prototype-iv)
 10. [Week 10](https://github.com/Polomich/CART315/blob/main/Process/README.md#week-10-iterative-prototype-v)
+11. Final Journal Entry
+
+## Final Journal Entry
+
+
 
 ## Week 10: Iterative Prototype V
 
-## Making a game loop
+### Making a game loop
 
 I am really scared of making this game a reality. So let's break it down.  
 ![image](https://github.com/user-attachments/assets/21168cd5-e37c-49c3-a5bc-05b784da65f3)
