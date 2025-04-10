@@ -19,6 +19,15 @@ Folder for process documentation.
 
 I'm so tired.
 
+Lots of work to do this week but i did it. I completed it.  
+
+My wishlist:
+- Fully-functional prototype --> Done
+- Cozy --> Done (?)
+- Two levels --> Done
+- Success / Fail --> Done (manually :( )
+- Low Priority: percentage of success and/or highlighting incorrect squares --> Not done
+
 ## Week 10: Iterative Prototype V
 
 ### Making a game loop
