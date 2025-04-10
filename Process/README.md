@@ -19,6 +19,21 @@ Folder for process documentation.
 
 I'm so tired.
 
+Lots of work to do this week but i did it. I completed it.  
+
+My wishlist:
+- Fully-functional prototype --> Done
+- Cozy --> Done (?)
+- Two levels --> Done
+- Success / Fail --> Done manually :( 
+- Low Priority: percentage of success and/or highlighting incorrect squares --> Not done
+
+Bugs and Unfinished business:
+- timer lags if restarted before it reaches 0
+- level design is directly in the Js file -> not secure, easy to cheat (but also if you cheat at a cozy pixel game ... thats your perogative)
+- checking pass/fail is done manually for each level. 
+
+
 ## Week 10: Iterative Prototype V
 
 ### Making a game loop
