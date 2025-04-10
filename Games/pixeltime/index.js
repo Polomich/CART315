@@ -25,6 +25,10 @@ let levels = [
     ],
     ["blanchedalmond", 120, 121, 136, 137],
   ],
+  [
+    ["red", 54, 56, 58, 70, 71, 72, 73, 74, 86, 87, 88, 89, 90, 103, 104, 105],
+    ["darkgreen", 120, 134, 136, 138, 151, 152, 153, 168, 184],
+  ],
 ];
 
 var gameTable;
@@ -70,7 +74,6 @@ function populateCoordinates() {
 }
 
 function changeColor(tile) {
-  // console.log("color change!!");
   let currColor = tile.style.background;
   var colorIndex = colors.indexOf(currColor);
 
@@ -84,11 +87,13 @@ function changeColor(tile) {
 }
 
 function startTimer() {
-  var timer = 30,
+  var interval;
+
+  var timer = 10,
     minutes,
     seconds;
 
-  var interval = setInterval(function () {
+  interval = setInterval(function () {
     minutes = parseInt(timer / 60, 10);
     seconds = parseInt(timer % 60, 10);
 
@@ -108,10 +113,15 @@ function startTimer() {
 }
 
 function setUpLevel(levelText) {
+  console.log(levelText);
+  //clear board
+  clearBoard();
+  var winlose = document.getElementById("winlose");
+  winlose.style.visibility = "hidden";
+
   //level level
   levelText = levelText.textContent;
   level = levelText.slice(-1);
-  console.log(level);
   popUp(levelText);
   document.getElementById("level-num").textContent = level;
 
@@ -125,7 +135,6 @@ function setUpLevel(levelText) {
 
   //tile color list
   var tileuls = document.getElementById("tile-ul").getElementsByTagName("li");
-  console.log(tileuls);
   for (let index = 0; index < colors.length - 1; index++) {
     tileuls[index].style.visibility = "visible";
     tileuls[index].getElementsByTagName("div")[0].style.background =
@@ -140,12 +149,21 @@ function setUpLevel(levelText) {
   // gray out pixels
 }
 
+function clearBoard() {
+  for (let tile of gameTiles) {
+    tile.style.background = "white";
+  }
+}
+
 function popUp(levelText) {
+  var popwrap = document.getElementById("popup-wrapper");
+  popwrap.style.zIndex = "0";
   var levelpop = document.getElementById("level-popup");
   levelpop.textContent = levelText;
 
   var popup = document.getElementById("popup");
   popup.style.visibility = "visible";
+  console.log("popup");
 }
 
 function winlose(win) {
@@ -189,11 +207,8 @@ function grayOut() {
   var popwrap = document.getElementById("popup-wrapper");
   popwrap.style.zIndex = "-1";
 
-  // console.log(gameTiles);
-
   for (let tile of gameTiles) {
-    // console.log(tile.style.background);
-    if (tile.style.background != "") {
+    if (tile.style.background != "white") {
       tile.style.background = "gainsboro";
     }
   }
@@ -202,12 +217,11 @@ function grayOut() {
 function checkDone() {
   var id;
   var win = true;
+  console.log("level " + level);
   //manually checking bc i am out of patience
-  if ((level = 1)) {
+  if (level == 1) {
     for (let index = 1; index <= 224; index++) {
       id = "tile" + index;
-      console.log(id);
-      console.log(document.getElementById(id).style.background);
       // check red
       if (
         index == 56 ||
@@ -253,6 +267,64 @@ function checkDone() {
       }
     }
   } //end level 1 check
+  //manual check for level 2
+  else {
+    for (let index = 1; index <= 224; index++) {
+      id = "tile" + index;
+      console.log(id);
+      // check red
+      if (
+        index == 54 ||
+        index == 56 ||
+        index == 58 ||
+        index == 70 ||
+        index == 71 ||
+        index == 72 ||
+        index == 73 ||
+        index == 74 ||
+        index == 86 ||
+        index == 87 ||
+        index == 88 ||
+        index == 89 ||
+        index == 90 ||
+        index == 103 ||
+        index == 104 ||
+        index == 105
+      ) {
+        if (document.getElementById(id).style.background != "red") {
+          win = false;
+          break;
+        }
+      }
+      //check green
+      else if (
+        index == 120 ||
+        index == 134 ||
+        index == 136 ||
+        index == 138 ||
+        index == 151 ||
+        index == 152 ||
+        index == 153 ||
+        index == 168 ||
+        index == 184
+      ) {
+        if (document.getElementById(id).style.background != "darkgreen") {
+          win = false;
+          break;
+        }
+      }
+      //check white
+      else {
+        if (
+          document.getElementById(id).style.background == "red" ||
+          document.getElementById(id).style.background == "darkgreen"
+        ) {
+          win = false;
+          break;
+        }
+      }
+    }
+  }
   console.log(win);
 
   winlose(win);
