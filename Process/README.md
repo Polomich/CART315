@@ -54,6 +54,7 @@ Bugs and Unfinished business:
 - i don't particularly like the way the timer looks.
 
 ### Playthrough
+![ScreenRecording2025-04-10124854-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1f9db0ac-c800-4de7-902f-f44bea7b746b)
 
 
 ## Week 10: Iterative Prototype V
