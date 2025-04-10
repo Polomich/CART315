@@ -17,6 +17,18 @@ Folder for process documentation.
 
 ## Final Journal Entry
 
+Testing out the popup to start a level:  
+![ScreenRecording2025-04-09225057-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b23a077e-2300-4f52-b246-037f4a6b9420)
+
+While testing it out again, I noticed the tiles are clickable while the image is showing, which is an issue:   
+![ScreenRecording2025-04-09225201-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/492b3bf4-9249-412f-975d-6b19ff6d799e)
+
+Yey it's fixed!  
+![ScreenRecording2025-04-09225057-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/591afe9d-9eb7-412f-b916-47d28205ab99)
+
+
+
+### Conclusions
 I'm so tired.
 
 Lots of work to do this week but i did it. I completed it.  
@@ -31,8 +43,7 @@ My wishlist:
 Bugs and Unfinished business:
 - timer lags if restarted before it reaches 0
 - level design is directly in the Js file -> not secure, easy to cheat (but also if you cheat at a cozy pixel game ... thats your perogative)
-- checking pass/fail is done manually for each level. 
-
+- checking pass/fail is done manually for each level.
 
 ## Week 10: Iterative Prototype V
 
