@@ -55,6 +55,7 @@ Bugs and Unfinished business:
 
 ### Playthrough
 ![ScreenRecording2025-04-10124854-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1f9db0ac-c800-4de7-902f-f44bea7b746b)
+![Screen Recording 2025-04-10 125501](https://github.com/user-attachments/assets/d04f1f35-189b-461c-9634-23a800c34de8)
 
 
 ## Week 10: Iterative Prototype V
