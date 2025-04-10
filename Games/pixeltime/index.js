@@ -84,7 +84,7 @@ function changeColor(tile) {
 }
 
 function startTimer() {
-  var timer = 1,
+  var timer = 20,
     minutes,
     seconds;
 
