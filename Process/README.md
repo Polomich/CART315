@@ -26,6 +26,8 @@ While testing it out again, I noticed the tiles are clickable while the image is
 Yey it's fixed!  
 ![ScreenRecording2025-04-09225057-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/591afe9d-9eb7-412f-b916-47d28205ab99)
 
+Graying out the area to fill as a hint:  
+![ScreenRecording2025-04-10001043-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/e96e0b32-9fba-4974-855a-2b23834b9d06)
 
 
 ### Conclusions
