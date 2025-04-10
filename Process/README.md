@@ -29,6 +29,11 @@ Yey it's fixed!
 Graying out the area to fill as a hint:  
 ![ScreenRecording2025-04-10001043-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/e96e0b32-9fba-4974-855a-2b23834b9d06)
 
+From here on out, it was a lot of frustrating coding and less documenting. As proven by the gigantic wall of archived code that didnt work as planned:  
+<img width="277" alt="image" src="https://github.com/user-attachments/assets/3422b5ff-99aa-4d45-b3a0-fc16e64cf1a9" />
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/babb065c-2eea-465f-b700-25cc56391d34" />
+
+
 
 ### Conclusions
 I'm so tired.
@@ -46,6 +51,10 @@ Bugs and Unfinished business:
 - timer lags if restarted before it reaches 0
 - level design is directly in the Js file -> not secure, easy to cheat (but also if you cheat at a cozy pixel game ... thats your perogative)
 - checking pass/fail is done manually for each level.
+- i don't particularly like the way the timer looks.
+
+### Playthrough
+
 
 ## Week 10: Iterative Prototype V
 
