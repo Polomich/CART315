@@ -11,7 +11,7 @@
     />
   </head>
 
-  <body onload="onLoadFunc()">
+  <body>
     <div id="popup-wrapper">
       <div id="popup">
         <div id="level-popup"></div>
@@ -19,6 +19,7 @@
         <button id="start-button" onclick="startLevel()">START</button>
       </div>
     </div>
+
     <section id="game-wrapper">
       <section id="game">
 
@@ -34,6 +35,8 @@
         </section>
 
         <section id="tables-wrapper">
+            <div id="winlose">
+            </div>
           <table id="horiz-coord-table" class="coord-table">
             <tr id="horiz-coord">
               <td></td>
@@ -330,7 +333,6 @@
         </section>
       </section>
 
-
       <section id="sidepane">
         <section id="menu-wrapper">
           <div id="menu-top" class="sidepane-item">
@@ -341,20 +343,20 @@
           <section id="menu">
             <div id="level" class="sidepane-item">
               <h2>Level</h2>
-              <h2 id="level-num">1</h2>
+              <h2 id="level-num"></h2>
             </div>
 
             <div id="tile-list" class="sidepane-item">
-              <ul>
-                <li>0</li>
-                <li>2</li>
-                <li>6</li>
-                <li>6</li>
+              <ul id="tile-ul">
+                <li><div></div><h4>0</h4></li>
+                <li><div></div><h4>0</h4></li>
+                <li><div></div><h4>0</h4></li>
+                <li><div></div><h4>0</h4></li>
               </ul>
             </div>
 
             <div id="done-div" class="sidepane-item">
-              <button id="done-button">Done</button>
+              <button id="done-button" onclick="checkDone()">Done</button>
             </div>
 
             <hr />
@@ -364,8 +366,8 @@
                 <ul>
                   <li onclick="setUpLevel(this)">Level 1</li>
                   <li onclick="setUpLevel(this)">Level 2</li>
-                  <li onclick="setUpLevel(this)">Level 3</li>
-                  <li onclick="setUpLevel(this)">Level 4</li>
+                  <!-- <li onclick="setUpLevel(this)">Level 3</li>
+                  <li onclick="setUpLevel(this)">Level 4</li> -->
                 </ul>
               </div>
             </section>

@@ -26,7 +26,14 @@ html, body, *{
     height: 100vh;
 }
 
-#popup{
+#winlose-wrapper{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#popup, #winlose{
     visibility: hidden;
     position: absolute;
     z-index: 2;
@@ -185,16 +192,20 @@ html, body, *{
 }
 
 #tile-list li{
+    visibility: hidden;
     margin: 20px 0px;
-    font-size: 1.7em;
+    font-size: 2em;
 }
 
-#tile-list li::before{
+#tile-list li div{
     content: "";
     border: 1px solid #022b3a;
-    padding: 4px 16px;
     margin-right: 14px;
+    margin-top: -6px;
     background-color: red;
+    width: 40px;
+    height: 40px;
+    float: left;
 }
 
 hr{

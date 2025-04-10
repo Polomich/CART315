@@ -1,12 +1,41 @@
+// import l1 from "./levels.js";
+let levels = [
+  [],
+  [
+    [
+      "red",
+      56,
+      57,
+      71,
+      72,
+      73,
+      74,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+    ],
+    ["blanchedalmond", 120, 121, 136, 137],
+  ],
+];
+
 var gameTable;
 var gameTiles;
 var vertCoord;
 var horizCoord;
 
-var colors = ["white", "red", "orange", "yellow", "green"];
+var colors = [];
 var level = 0;
 
-function onLoadFunc() {
+window.onload = function onLoadFunc() {
   gameTable = document.getElementById("game-table");
   gameTiles = gameTable.getElementsByTagName("td");
 
@@ -19,7 +48,7 @@ function onLoadFunc() {
   }
 
   populateCoordinates();
-}
+};
 
 function populateCoordinates() {
   vertCoord = document.getElementById("vert-coord").getElementsByTagName("td");
@@ -41,6 +70,7 @@ function populateCoordinates() {
 }
 
 function changeColor(tile) {
+  // console.log("color change!!");
   let currColor = tile.style.background;
   var colorIndex = colors.indexOf(currColor);
 
@@ -53,29 +83,12 @@ function changeColor(tile) {
   tile.style.background = colors[colorIndex + 1];
 }
 
-function setUpGame() {}
-
-// function startTimer() {
-// var sec = 70;
-// var timer = setInterval(function () {
-//   if (sec > 59) {
-//     document.getElementById("time-div").innerHTML = "01:" + (sec - 60);
-//   } else if (sec > 9) {
-//     document.getElementById("time-div").innerHTML = "00:" + sec;
-//   } else {
-//     document.getElementById("time-div").innerHTML = "00:0" + sec;
-//   }
-//   sec--;
-//   if (sec < 0) {
-//     clearInterval(timer);
-//   }
-// }, 1000);
-
 function startTimer() {
-  var timer = 10,
+  var timer = 1,
     minutes,
     seconds;
-  setInterval(function () {
+
+  var interval = setInterval(function () {
     minutes = parseInt(timer / 60, 10);
     seconds = parseInt(timer % 60, 10);
 
@@ -84,20 +97,42 @@ function startTimer() {
 
     document.getElementById("time-div").innerHTML = minutes + ":" + seconds;
 
-    // display.textContent = minutes + ":" + seconds;
-
+    //when timer ends
     if (--timer < 0) {
       timer = 0;
-      timer = duration; // uncomment this line to reset timer automatically after reaching 0
+      clearInterval(interval);
+      grayOut();
+      // timer = 5; // uncomment this line to reset timer automatically after reaching 0
     }
   }, 1000);
 }
 
 function setUpLevel(levelText) {
+  //level level
   levelText = levelText.textContent;
   level = levelText.slice(-1);
   console.log(level);
   popUp(levelText);
+  document.getElementById("level-num").textContent = level;
+
+  //level colors
+  colors = [];
+  for (let index = 0; index < levels[level].length; index++) {
+    colors.push(levels[level][index][0]);
+  }
+  colors.push("white");
+  console.log(colors);
+
+  //tile color list
+  var tileuls = document.getElementById("tile-ul").getElementsByTagName("li");
+  console.log(tileuls);
+  for (let index = 0; index < colors.length - 1; index++) {
+    tileuls[index].style.visibility = "visible";
+    tileuls[index].getElementsByTagName("div")[0].style.background =
+      colors[index];
+    var numoftiles = levels[level][index].length - 1;
+    tileuls[index].getElementsByTagName("h4")[0].textContent = numoftiles;
+  }
 
   //show image(level)
   //start timer
@@ -113,12 +148,176 @@ function popUp(levelText) {
   popup.style.visibility = "visible";
 }
 
+function winlose(win) {
+  var text, bg;
+  if (win == true) {
+    text = "Congrats you won!";
+    bg = "lime";
+  } else {
+    text = "Not good enough.";
+    bg = "maroon";
+  }
+
+  var winlose = document.getElementById("winlose");
+  winlose.textContent = text;
+  winlose.style.background = bg;
+  winlose.style.visibility = "visible";
+}
+
 function startLevel() {
   var popup = document.getElementById("popup");
   popup.style.visibility = "hidden";
 
   startTimer();
-  showImage(level);
+  showImage();
 }
 
-function showImage() {}
+function showImage() {
+  var color, id;
+
+  for (var i = 0; i < levels[level].length; i++) {
+    color = levels[level][i][0];
+    id = 0;
+    for (var j = 1; j < levels[level][i].length; j++) {
+      id = "tile" + levels[level][i][j];
+      document.getElementById(id).style.background = color;
+    }
+  }
+}
+
+function grayOut() {
+  var popwrap = document.getElementById("popup-wrapper");
+  popwrap.style.zIndex = "-1";
+
+  // console.log(gameTiles);
+
+  for (let tile of gameTiles) {
+    // console.log(tile.style.background);
+    if (tile.style.background != "") {
+      tile.style.background = "gainsboro";
+    }
+  }
+}
+
+function checkDone() {
+  var id;
+  var win = true;
+  //manually checking bc i am out of patience
+  if ((level = 1)) {
+    for (let index = 1; index <= 224; index++) {
+      id = "tile" + index;
+      console.log(id);
+      console.log(document.getElementById(id).style.background);
+      // check red
+      if (
+        index == 56 ||
+        index == 57 ||
+        index == 71 ||
+        index == 72 ||
+        index == 73 ||
+        index == 74 ||
+        index == 86 ||
+        index == 87 ||
+        index == 88 ||
+        index == 89 ||
+        index == 90 ||
+        index == 91 ||
+        index == 102 ||
+        index == 103 ||
+        index == 104 ||
+        index == 105 ||
+        index == 106 ||
+        index == 107
+      ) {
+        if (document.getElementById(id).style.background != "red") {
+          win = false;
+          break;
+        }
+      }
+      //check beige
+      else if (index == 120 || index == 121 || index == 136 || index == 137) {
+        if (document.getElementById(id).style.background != "blanchedalmond") {
+          win = false;
+          break;
+        }
+      }
+      //check white
+      else {
+        if (
+          document.getElementById(id).style.background == "red" ||
+          document.getElementById(id).style.background == "gainsboro"
+        ) {
+          win = false;
+          break;
+        }
+      }
+    }
+  } //end level 1 check
+  console.log(win);
+
+  winlose(win);
+}
+
+// function checkDone() {
+//   // var win = true;
+
+//   // var tilecolor, id, currtile;
+
+//   // for (let index = 1; index <= 224; index++) {
+//   //   id = "tile" + index;
+//   //   currtile = document.getElementById(id);
+//   //   tilecolor = currtile.style.background;
+//   //   console.log(id);
+
+//   //   if (tilecolor == "white") {
+//   //     //if tile is supposed to be colored
+//   //     if (levels[level][0].find(index) != undefined) {
+//   //       win = false; // lose
+//   //       break;
+//   //     }
+//   //   }
+//   //   // not white
+//   //   else {
+//   //     for (let j = 0; j < colors.length - 1; j++) {
+//   //       var checkingColor = colors[j];
+//   //       if (tilecolor == checkingColor) {
+//   //         //if tile is not the correct color
+//   //         if (levels[level][j].find(index) == undefined) {
+//   //           win = false; // lose
+//   //           break;
+//   //         }
+//   //       }
+//   //     }
+//   //   }
+//   } // done checking all tiles
+
+//   // for (var i = 0; i < levels[level].length; i++) {
+//   //   color = levels[level][i][0];
+
+//   //   for (var j = 1; j < levels[level][i].length; j++) {
+
+//   //     id = "tile" + tilessofar;
+//   //     currtile = document.getElementById(id);
+//   //     console.log(id + "" + currtile);
+
+//   //     if()
+
+//   //     // //white tile not in image
+//   //     // if (tilessofar != levels[level][i][j]) {
+//   //     //   if (document.getElementById(id).style.background != "white") {
+//   //     //     win = false;
+//   //     //     // break;
+//   //     //   }
+//   //     // }
+//   //     // //tile part of the image
+//   //     // else {
+//   //     //   if (document.getElementById(id).style.background != color) {
+//   //     //     win = false;
+//   //     //     // break;
+//   //     //   }
+//   //     // }
+//   //     tilessofar++;
+//   //   }
+//   // }
+//   console.log(win);
+// }
